@@ -31,68 +31,146 @@
 		D7C75FA217E5BFF00018AB91 /* libZeroMQ-Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C75F8917E5BFF00018AB91 /* libZeroMQ-Framework.a */; };
 		D7C75FA817E5BFF00018AB91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C75FA617E5BFF00018AB91 /* InfoPlist.strings */; };
 		D7C75FAB17E5BFF00018AB91 /* ZeroMQ_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C75FAA17E5BFF00018AB91 /* ZeroMQ_FrameworkTests.m */; };
-		D7C7611317E5C3AA0018AB91 /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7608617E5C3AA0018AB91 /* address.cpp */; };
-		D7C7611417E5C3AA0018AB91 /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7608C17E5C3AA0018AB91 /* clock.cpp */; };
-		D7C7611517E5C3AA0018AB91 /* ctx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609017E5C3AA0018AB91 /* ctx.cpp */; };
-		D7C7611617E5C3AA0018AB91 /* dealer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609217E5C3AA0018AB91 /* dealer.cpp */; };
-		D7C7611717E5C3AA0018AB91 /* decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609417E5C3AA0018AB91 /* decoder.cpp */; };
-		D7C7611817E5C3AA0018AB91 /* devpoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609617E5C3AA0018AB91 /* devpoll.cpp */; };
-		D7C7611917E5C3AA0018AB91 /* dist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609817E5C3AA0018AB91 /* dist.cpp */; };
-		D7C7611A17E5C3AA0018AB91 /* encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609A17E5C3AA0018AB91 /* encoder.cpp */; };
-		D7C7611B17E5C3AA0018AB91 /* epoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609C17E5C3AA0018AB91 /* epoll.cpp */; };
-		D7C7611C17E5C3AA0018AB91 /* err.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7609E17E5C3AA0018AB91 /* err.cpp */; };
-		D7C7611D17E5C3AA0018AB91 /* fq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760A117E5C3AA0018AB91 /* fq.cpp */; };
-		D7C7611E17E5C3AA0018AB91 /* io_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760A917E5C3AA0018AB91 /* io_object.cpp */; };
-		D7C7611F17E5C3AA0018AB91 /* io_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760AB17E5C3AA0018AB91 /* io_thread.cpp */; };
-		D7C7612017E5C3AA0018AB91 /* ip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760AD17E5C3AA0018AB91 /* ip.cpp */; };
-		D7C7612117E5C3AA0018AB91 /* ipc_address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760AF17E5C3AA0018AB91 /* ipc_address.cpp */; };
-		D7C7612217E5C3AA0018AB91 /* ipc_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760B117E5C3AA0018AB91 /* ipc_connecter.cpp */; };
-		D7C7612317E5C3AA0018AB91 /* ipc_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760B317E5C3AA0018AB91 /* ipc_listener.cpp */; };
-		D7C7612417E5C3AA0018AB91 /* kqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760B517E5C3AA0018AB91 /* kqueue.cpp */; };
-		D7C7612517E5C3AA0018AB91 /* lb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760B717E5C3AA0018AB91 /* lb.cpp */; };
-		D7C7612617E5C3AA0018AB91 /* mailbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760BA17E5C3AA0018AB91 /* mailbox.cpp */; };
-		D7C7612717E5C3AA0018AB91 /* msg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760BC17E5C3AA0018AB91 /* msg.cpp */; };
-		D7C7612817E5C3AA0018AB91 /* mtrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760BE17E5C3AA0018AB91 /* mtrie.cpp */; };
-		D7C7612917E5C3AA0018AB91 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760C117E5C3AA0018AB91 /* object.cpp */; };
-		D7C7612A17E5C3AA0018AB91 /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760C317E5C3AA0018AB91 /* options.cpp */; };
-		D7C7612B17E5C3AA0018AB91 /* own.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760C517E5C3AA0018AB91 /* own.cpp */; };
-		D7C7612C17E5C3AA0018AB91 /* pair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760C717E5C3AA0018AB91 /* pair.cpp */; };
-		D7C7612D17E5C3AA0018AB91 /* pgm_receiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760C917E5C3AA0018AB91 /* pgm_receiver.cpp */; };
-		D7C7612E17E5C3AA0018AB91 /* pgm_sender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760CB17E5C3AA0018AB91 /* pgm_sender.cpp */; };
-		D7C7612F17E5C3AA0018AB91 /* pgm_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760CD17E5C3AA0018AB91 /* pgm_socket.cpp */; };
-		D7C7613017E5C3AA0018AB91 /* pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760CF17E5C3AA0018AB91 /* pipe.cpp */; };
-		D7C7613117E5C3AA0018AB91 /* poll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760D217E5C3AA0018AB91 /* poll.cpp */; };
-		D7C7613217E5C3AA0018AB91 /* poller_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760D517E5C3AA0018AB91 /* poller_base.cpp */; };
-		D7C7613317E5C3AA0018AB91 /* precompiled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760D717E5C3AA0018AB91 /* precompiled.cpp */; };
-		D7C7613417E5C3AA0018AB91 /* proxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760D917E5C3AA0018AB91 /* proxy.cpp */; };
-		D7C7613517E5C3AA0018AB91 /* pub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760DB17E5C3AA0018AB91 /* pub.cpp */; };
-		D7C7613617E5C3AA0018AB91 /* pull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760DD17E5C3AA0018AB91 /* pull.cpp */; };
-		D7C7613717E5C3AA0018AB91 /* push.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760DF17E5C3AA0018AB91 /* push.cpp */; };
-		D7C7613817E5C3AA0018AB91 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760E117E5C3AA0018AB91 /* random.cpp */; };
-		D7C7613917E5C3AA0018AB91 /* reaper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760E317E5C3AA0018AB91 /* reaper.cpp */; };
-		D7C7613A17E5C3AA0018AB91 /* rep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760E517E5C3AA0018AB91 /* rep.cpp */; };
-		D7C7613B17E5C3AA0018AB91 /* req.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760E717E5C3AA0018AB91 /* req.cpp */; };
-		D7C7613C17E5C3AA0018AB91 /* router.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760E917E5C3AA0018AB91 /* router.cpp */; };
-		D7C7613D17E5C3AA0018AB91 /* select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760EB17E5C3AA0018AB91 /* select.cpp */; };
-		D7C7613E17E5C3AA0018AB91 /* session_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760ED17E5C3AA0018AB91 /* session_base.cpp */; };
-		D7C7613F17E5C3AA0018AB91 /* signaler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760EF17E5C3AA0018AB91 /* signaler.cpp */; };
-		D7C7614017E5C3AA0018AB91 /* socket_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760F117E5C3AA0018AB91 /* socket_base.cpp */; };
-		D7C7614117E5C3AA0018AB91 /* stream_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760F417E5C3AA0018AB91 /* stream_engine.cpp */; };
-		D7C7614217E5C3AA0018AB91 /* sub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760F617E5C3AA0018AB91 /* sub.cpp */; };
-		D7C7614317E5C3AA0018AB91 /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760F817E5C3AA0018AB91 /* tcp.cpp */; };
-		D7C7614417E5C3AA0018AB91 /* tcp_address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760FA17E5C3AA0018AB91 /* tcp_address.cpp */; };
-		D7C7614517E5C3AA0018AB91 /* tcp_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760FC17E5C3AA0018AB91 /* tcp_connecter.cpp */; };
-		D7C7614617E5C3AA0018AB91 /* tcp_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C760FE17E5C3AA0018AB91 /* tcp_listener.cpp */; };
-		D7C7614717E5C3AA0018AB91 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7610017E5C3AA0018AB91 /* thread.cpp */; };
-		D7C7614817E5C3AA0018AB91 /* trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7610217E5C3AA0018AB91 /* trie.cpp */; };
-		D7C7614917E5C3AA0018AB91 /* v1_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7610417E5C3AA0018AB91 /* v1_decoder.cpp */; };
-		D7C7614A17E5C3AA0018AB91 /* v1_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7610617E5C3AA0018AB91 /* v1_encoder.cpp */; };
-		D7C7614B17E5C3AA0018AB91 /* xpub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7610B17E5C3AA0018AB91 /* xpub.cpp */; };
-		D7C7614C17E5C3AA0018AB91 /* xsub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7610D17E5C3AA0018AB91 /* xsub.cpp */; };
-		D7C7614D17E5C3AA0018AB91 /* zmq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7611117E5C3AA0018AB91 /* zmq.cpp */; };
-		D7C7614E17E5C3AA0018AB91 /* zmq_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C7611217E5C3AA0018AB91 /* zmq_utils.cpp */; };
-		D7C7615917E5C91D0018AB91 /* zmq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7C7615017E5C3B70018AB91 /* zmq.h */; };
-		D7C7615A17E5C91D0018AB91 /* zmq_utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7C7615117E5C3B70018AB91 /* zmq_utils.h */; };
+		D7E4D152182FA29E00764732 /* libzmq.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06A182FA29E00764732 /* libzmq.3.dylib */; };
+		D7E4D153182FA29E00764732 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06B182FA29E00764732 /* libzmq.a */; };
+		D7E4D154182FA29E00764732 /* libzmq.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06C182FA29E00764732 /* libzmq.dylib */; };
+		D7E4D155182FA29E00764732 /* libzmq_la-address.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06F182FA29E00764732 /* libzmq_la-address.o */; };
+		D7E4D156182FA29E00764732 /* libzmq_la-clock.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D070182FA29E00764732 /* libzmq_la-clock.o */; };
+		D7E4D157182FA29E00764732 /* libzmq_la-ctx.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D071182FA29E00764732 /* libzmq_la-ctx.o */; };
+		D7E4D158182FA29E00764732 /* libzmq_la-curve_client.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D072182FA29E00764732 /* libzmq_la-curve_client.o */; };
+		D7E4D159182FA29E00764732 /* libzmq_la-curve_server.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D073182FA29E00764732 /* libzmq_la-curve_server.o */; };
+		D7E4D15A182FA29E00764732 /* libzmq_la-dealer.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D074182FA29E00764732 /* libzmq_la-dealer.o */; };
+		D7E4D15B182FA29E00764732 /* libzmq_la-devpoll.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D075182FA29E00764732 /* libzmq_la-devpoll.o */; };
+		D7E4D15C182FA29E00764732 /* libzmq_la-dist.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D076182FA29E00764732 /* libzmq_la-dist.o */; };
+		D7E4D15D182FA29E00764732 /* libzmq_la-epoll.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D077182FA29E00764732 /* libzmq_la-epoll.o */; };
+		D7E4D15E182FA29E00764732 /* libzmq_la-err.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D078182FA29E00764732 /* libzmq_la-err.o */; };
+		D7E4D15F182FA29E00764732 /* libzmq_la-fq.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D079182FA29E00764732 /* libzmq_la-fq.o */; };
+		D7E4D160182FA29E00764732 /* libzmq_la-io_object.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07A182FA29E00764732 /* libzmq_la-io_object.o */; };
+		D7E4D161182FA29E00764732 /* libzmq_la-io_thread.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07B182FA29E00764732 /* libzmq_la-io_thread.o */; };
+		D7E4D162182FA29E00764732 /* libzmq_la-ip.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07C182FA29E00764732 /* libzmq_la-ip.o */; };
+		D7E4D163182FA29E00764732 /* libzmq_la-ipc_address.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07D182FA29E00764732 /* libzmq_la-ipc_address.o */; };
+		D7E4D164182FA29E00764732 /* libzmq_la-ipc_connecter.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07E182FA29E00764732 /* libzmq_la-ipc_connecter.o */; };
+		D7E4D165182FA29E00764732 /* libzmq_la-ipc_listener.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07F182FA29E00764732 /* libzmq_la-ipc_listener.o */; };
+		D7E4D166182FA29E00764732 /* libzmq_la-kqueue.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D080182FA29E00764732 /* libzmq_la-kqueue.o */; };
+		D7E4D167182FA29E00764732 /* libzmq_la-lb.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D081182FA29E00764732 /* libzmq_la-lb.o */; };
+		D7E4D168182FA29E00764732 /* libzmq_la-mailbox.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D082182FA29E00764732 /* libzmq_la-mailbox.o */; };
+		D7E4D169182FA29E00764732 /* libzmq_la-mechanism.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D083182FA29E00764732 /* libzmq_la-mechanism.o */; };
+		D7E4D16A182FA29E00764732 /* libzmq_la-msg.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D084182FA29E00764732 /* libzmq_la-msg.o */; };
+		D7E4D16B182FA29E00764732 /* libzmq_la-mtrie.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D085182FA29E00764732 /* libzmq_la-mtrie.o */; };
+		D7E4D16C182FA29E00764732 /* libzmq_la-null_mechanism.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D086182FA29E00764732 /* libzmq_la-null_mechanism.o */; };
+		D7E4D16D182FA29E00764732 /* libzmq_la-object.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D087182FA29E00764732 /* libzmq_la-object.o */; };
+		D7E4D16E182FA29E00764732 /* libzmq_la-options.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D088182FA29E00764732 /* libzmq_la-options.o */; };
+		D7E4D16F182FA29E00764732 /* libzmq_la-own.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D089182FA29E00764732 /* libzmq_la-own.o */; };
+		D7E4D170182FA29E00764732 /* libzmq_la-pair.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08A182FA29E00764732 /* libzmq_la-pair.o */; };
+		D7E4D171182FA29E00764732 /* libzmq_la-pgm_receiver.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08B182FA29E00764732 /* libzmq_la-pgm_receiver.o */; };
+		D7E4D172182FA29E00764732 /* libzmq_la-pgm_sender.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08C182FA29E00764732 /* libzmq_la-pgm_sender.o */; };
+		D7E4D173182FA29E00764732 /* libzmq_la-pgm_socket.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08D182FA29E00764732 /* libzmq_la-pgm_socket.o */; };
+		D7E4D174182FA29E00764732 /* libzmq_la-pipe.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08E182FA29E00764732 /* libzmq_la-pipe.o */; };
+		D7E4D175182FA29E00764732 /* libzmq_la-plain_mechanism.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08F182FA29E00764732 /* libzmq_la-plain_mechanism.o */; };
+		D7E4D176182FA29E00764732 /* libzmq_la-poll.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D090182FA29E00764732 /* libzmq_la-poll.o */; };
+		D7E4D177182FA29E00764732 /* libzmq_la-poller_base.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D091182FA29E00764732 /* libzmq_la-poller_base.o */; };
+		D7E4D178182FA29E00764732 /* libzmq_la-proxy.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D092182FA29E00764732 /* libzmq_la-proxy.o */; };
+		D7E4D179182FA29E00764732 /* libzmq_la-pub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D093182FA29E00764732 /* libzmq_la-pub.o */; };
+		D7E4D17A182FA29E00764732 /* libzmq_la-pull.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D094182FA29E00764732 /* libzmq_la-pull.o */; };
+		D7E4D17B182FA29E00764732 /* libzmq_la-push.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D095182FA29E00764732 /* libzmq_la-push.o */; };
+		D7E4D17C182FA29E00764732 /* libzmq_la-random.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D096182FA29E00764732 /* libzmq_la-random.o */; };
+		D7E4D17D182FA29E00764732 /* libzmq_la-raw_decoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D097182FA29E00764732 /* libzmq_la-raw_decoder.o */; };
+		D7E4D17E182FA29E00764732 /* libzmq_la-raw_encoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D098182FA29E00764732 /* libzmq_la-raw_encoder.o */; };
+		D7E4D17F182FA29E00764732 /* libzmq_la-reaper.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D099182FA29E00764732 /* libzmq_la-reaper.o */; };
+		D7E4D180182FA29E00764732 /* libzmq_la-rep.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09A182FA29E00764732 /* libzmq_la-rep.o */; };
+		D7E4D181182FA29E00764732 /* libzmq_la-req.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09B182FA29E00764732 /* libzmq_la-req.o */; };
+		D7E4D182182FA29E00764732 /* libzmq_la-router.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09C182FA29E00764732 /* libzmq_la-router.o */; };
+		D7E4D183182FA29E00764732 /* libzmq_la-select.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09D182FA29E00764732 /* libzmq_la-select.o */; };
+		D7E4D184182FA29E00764732 /* libzmq_la-session_base.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09E182FA29E00764732 /* libzmq_la-session_base.o */; };
+		D7E4D185182FA29E00764732 /* libzmq_la-signaler.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09F182FA29E00764732 /* libzmq_la-signaler.o */; };
+		D7E4D186182FA29E00764732 /* libzmq_la-socket_base.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A0182FA29E00764732 /* libzmq_la-socket_base.o */; };
+		D7E4D187182FA29E00764732 /* libzmq_la-stream.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A1182FA29E00764732 /* libzmq_la-stream.o */; };
+		D7E4D188182FA29E00764732 /* libzmq_la-stream_engine.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A2182FA29E00764732 /* libzmq_la-stream_engine.o */; };
+		D7E4D189182FA29E00764732 /* libzmq_la-sub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A3182FA29E00764732 /* libzmq_la-sub.o */; };
+		D7E4D18A182FA29E00764732 /* libzmq_la-tcp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A4182FA29E00764732 /* libzmq_la-tcp.o */; };
+		D7E4D18B182FA29E00764732 /* libzmq_la-tcp_address.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A5182FA29E00764732 /* libzmq_la-tcp_address.o */; };
+		D7E4D18C182FA29E00764732 /* libzmq_la-tcp_connecter.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A6182FA29E00764732 /* libzmq_la-tcp_connecter.o */; };
+		D7E4D18D182FA29E00764732 /* libzmq_la-tcp_listener.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A7182FA29E00764732 /* libzmq_la-tcp_listener.o */; };
+		D7E4D18E182FA29E00764732 /* libzmq_la-thread.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A8182FA29E00764732 /* libzmq_la-thread.o */; };
+		D7E4D18F182FA29E00764732 /* libzmq_la-trie.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A9182FA29E00764732 /* libzmq_la-trie.o */; };
+		D7E4D190182FA29E00764732 /* libzmq_la-v1_decoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AA182FA29E00764732 /* libzmq_la-v1_decoder.o */; };
+		D7E4D191182FA29E00764732 /* libzmq_la-v1_encoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AB182FA29E00764732 /* libzmq_la-v1_encoder.o */; };
+		D7E4D192182FA29E00764732 /* libzmq_la-v2_decoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AC182FA29E00764732 /* libzmq_la-v2_decoder.o */; };
+		D7E4D193182FA29E00764732 /* libzmq_la-v2_encoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AD182FA29E00764732 /* libzmq_la-v2_encoder.o */; };
+		D7E4D194182FA29E00764732 /* libzmq_la-xpub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AE182FA29E00764732 /* libzmq_la-xpub.o */; };
+		D7E4D195182FA29E00764732 /* libzmq_la-xsub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AF182FA29E00764732 /* libzmq_la-xsub.o */; };
+		D7E4D196182FA29E00764732 /* libzmq_la-zmq.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0B0182FA29E00764732 /* libzmq_la-zmq.o */; };
+		D7E4D197182FA29E00764732 /* libzmq_la-zmq_utils.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0B1182FA29E00764732 /* libzmq_la-zmq_utils.o */; };
+		D7E4D198182FA29E00764732 /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0B2182FA29E00764732 /* address.cpp */; };
+		D7E4D199182FA29E00764732 /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0B8182FA29E00764732 /* clock.cpp */; };
+		D7E4D19A182FA29E00764732 /* ctx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0BC182FA29E00764732 /* ctx.cpp */; };
+		D7E4D19B182FA29E00764732 /* curve_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0BE182FA29E00764732 /* curve_client.cpp */; };
+		D7E4D19C182FA29E00764732 /* curve_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0C0182FA29E00764732 /* curve_server.cpp */; };
+		D7E4D19D182FA29E00764732 /* dealer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0C3182FA29E00764732 /* dealer.cpp */; };
+		D7E4D19E182FA29E00764732 /* devpoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0C6182FA29E00764732 /* devpoll.cpp */; };
+		D7E4D19F182FA29E00764732 /* dist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0C8182FA29E00764732 /* dist.cpp */; };
+		D7E4D1A0182FA29E00764732 /* epoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0CB182FA29E00764732 /* epoll.cpp */; };
+		D7E4D1A1182FA29E00764732 /* err.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0CD182FA29E00764732 /* err.cpp */; };
+		D7E4D1A2182FA29E00764732 /* fq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0D0182FA29E00764732 /* fq.cpp */; };
+		D7E4D1A3182FA29E00764732 /* io_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0D6182FA29E00764732 /* io_object.cpp */; };
+		D7E4D1A4182FA29E00764732 /* io_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0D8182FA29E00764732 /* io_thread.cpp */; };
+		D7E4D1A5182FA29E00764732 /* ip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0DA182FA29E00764732 /* ip.cpp */; };
+		D7E4D1A6182FA29E00764732 /* ipc_address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0DC182FA29E00764732 /* ipc_address.cpp */; };
+		D7E4D1A7182FA29E00764732 /* ipc_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0DE182FA29E00764732 /* ipc_connecter.cpp */; };
+		D7E4D1A8182FA29E00764732 /* ipc_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0E0182FA29E00764732 /* ipc_listener.cpp */; };
+		D7E4D1A9182FA29E00764732 /* kqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0E2182FA29E00764732 /* kqueue.cpp */; };
+		D7E4D1AA182FA29E00764732 /* lb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0E4182FA29E00764732 /* lb.cpp */; };
+		D7E4D1AB182FA29E00764732 /* mailbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0E7182FA29E00764732 /* mailbox.cpp */; };
+		D7E4D1AC182FA29E00764732 /* mechanism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0E9182FA29E00764732 /* mechanism.cpp */; };
+		D7E4D1AD182FA29E00764732 /* msg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0EB182FA29E00764732 /* msg.cpp */; };
+		D7E4D1AE182FA29E00764732 /* mtrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0ED182FA29E00764732 /* mtrie.cpp */; };
+		D7E4D1AF182FA29E00764732 /* null_mechanism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0F0182FA29E00764732 /* null_mechanism.cpp */; };
+		D7E4D1B0182FA29E00764732 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0F2182FA29E00764732 /* object.cpp */; };
+		D7E4D1B1182FA29E00764732 /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0F4182FA29E00764732 /* options.cpp */; };
+		D7E4D1B2182FA29E00764732 /* own.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0F6182FA29E00764732 /* own.cpp */; };
+		D7E4D1B3182FA29E00764732 /* pair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0F8182FA29E00764732 /* pair.cpp */; };
+		D7E4D1B4182FA29E00764732 /* pgm_receiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0FA182FA29E00764732 /* pgm_receiver.cpp */; };
+		D7E4D1B5182FA29E00764732 /* pgm_sender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0FC182FA29E00764732 /* pgm_sender.cpp */; };
+		D7E4D1B6182FA29E00764732 /* pgm_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0FE182FA29E00764732 /* pgm_socket.cpp */; };
+		D7E4D1B7182FA29E00764732 /* pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D100182FA29E00764732 /* pipe.cpp */; };
+		D7E4D1B8182FA29E00764732 /* plain_mechanism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D102182FA29E00764732 /* plain_mechanism.cpp */; };
+		D7E4D1B9182FA29E00764732 /* poll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D105182FA29E00764732 /* poll.cpp */; };
+		D7E4D1BA182FA29E00764732 /* poller_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D108182FA29E00764732 /* poller_base.cpp */; };
+		D7E4D1BB182FA29E00764732 /* precompiled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D10A182FA29E00764732 /* precompiled.cpp */; };
+		D7E4D1BC182FA29E00764732 /* proxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D10C182FA29E00764732 /* proxy.cpp */; };
+		D7E4D1BD182FA29E00764732 /* pub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D10E182FA29E00764732 /* pub.cpp */; };
+		D7E4D1BE182FA29E00764732 /* pull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D110182FA29E00764732 /* pull.cpp */; };
+		D7E4D1BF182FA29E00764732 /* push.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D112182FA29E00764732 /* push.cpp */; };
+		D7E4D1C0182FA29E00764732 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D114182FA29E00764732 /* random.cpp */; };
+		D7E4D1C1182FA29E00764732 /* raw_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D116182FA29E00764732 /* raw_decoder.cpp */; };
+		D7E4D1C2182FA29E00764732 /* raw_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D118182FA29E00764732 /* raw_encoder.cpp */; };
+		D7E4D1C3182FA29E00764732 /* reaper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D11A182FA29E00764732 /* reaper.cpp */; };
+		D7E4D1C4182FA29E00764732 /* rep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D11C182FA29E00764732 /* rep.cpp */; };
+		D7E4D1C5182FA29E00764732 /* req.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D11E182FA29E00764732 /* req.cpp */; };
+		D7E4D1C6182FA29E00764732 /* router.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D120182FA29E00764732 /* router.cpp */; };
+		D7E4D1C7182FA29E00764732 /* select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D122182FA29E00764732 /* select.cpp */; };
+		D7E4D1C8182FA29E00764732 /* session_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D124182FA29E00764732 /* session_base.cpp */; };
+		D7E4D1C9182FA29E00764732 /* signaler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D126182FA29E00764732 /* signaler.cpp */; };
+		D7E4D1CA182FA29E00764732 /* socket_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D128182FA29E00764732 /* socket_base.cpp */; };
+		D7E4D1CB182FA29E00764732 /* stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D12B182FA29E00764732 /* stream.cpp */; };
+		D7E4D1CC182FA29E00764732 /* stream_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D12D182FA29E00764732 /* stream_engine.cpp */; };
+		D7E4D1CD182FA29E00764732 /* sub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D12F182FA29E00764732 /* sub.cpp */; };
+		D7E4D1CE182FA29E00764732 /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D131182FA29E00764732 /* tcp.cpp */; };
+		D7E4D1CF182FA29E00764732 /* tcp_address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D133182FA29E00764732 /* tcp_address.cpp */; };
+		D7E4D1D0182FA29E00764732 /* tcp_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D135182FA29E00764732 /* tcp_connecter.cpp */; };
+		D7E4D1D1182FA29E00764732 /* tcp_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D137182FA29E00764732 /* tcp_listener.cpp */; };
+		D7E4D1D2182FA29E00764732 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D139182FA29E00764732 /* thread.cpp */; };
+		D7E4D1D3182FA29E00764732 /* trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D13B182FA29E00764732 /* trie.cpp */; };
+		D7E4D1D4182FA29E00764732 /* v1_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D13D182FA29E00764732 /* v1_decoder.cpp */; };
+		D7E4D1D5182FA29E00764732 /* v1_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D13F182FA29E00764732 /* v1_encoder.cpp */; };
+		D7E4D1D6182FA29E00764732 /* v2_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D141182FA29E00764732 /* v2_decoder.cpp */; };
+		D7E4D1D7182FA29E00764732 /* v2_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D143182FA29E00764732 /* v2_encoder.cpp */; };
+		D7E4D1D8182FA29E00764732 /* xpub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D148182FA29E00764732 /* xpub.cpp */; };
+		D7E4D1D9182FA29E00764732 /* xsub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D14A182FA29E00764732 /* xsub.cpp */; };
+		D7E4D1DA182FA29E00764732 /* zmq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D150182FA29E00764732 /* zmq.cpp */; };
+		D7E4D1DB182FA29E00764732 /* zmq_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D151182FA29E00764732 /* zmq_utils.cpp */; };
+		D7E4D1DF182FA2C900764732 /* zmq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7E4D1DD182FA2A800764732 /* zmq.h */; };
+		D7E4D1E0182FA2C900764732 /* zmq_utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7E4D1DE182FA2A800764732 /* zmq_utils.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,8 +200,8 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
 			dstSubfolderSpec = 0;
 			files = (
-				D7C7615917E5C91D0018AB91 /* zmq.h in CopyFiles */,
-				D7C7615A17E5C91D0018AB91 /* zmq_utils.h in CopyFiles */,
+				D7E4D1DF182FA2C900764732 /* zmq.h in CopyFiles */,
+				D7E4D1E0182FA2C900764732 /* zmq_utils.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,149 +219,240 @@
 		D7C75FA717E5BFF00018AB91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7C75FA917E5BFF00018AB91 /* ZeroMQ_FrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroMQ_FrameworkTests.h; sourceTree = "<group>"; };
 		D7C75FAA17E5BFF00018AB91 /* ZeroMQ_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZeroMQ_FrameworkTests.m; sourceTree = "<group>"; };
-		D7C7608617E5C3AA0018AB91 /* address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = address.cpp; sourceTree = "<group>"; };
-		D7C7608717E5C3AA0018AB91 /* address.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = address.hpp; sourceTree = "<group>"; };
-		D7C7608817E5C3AA0018AB91 /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
-		D7C7608917E5C3AA0018AB91 /* atomic_counter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = atomic_counter.hpp; sourceTree = "<group>"; };
-		D7C7608A17E5C3AA0018AB91 /* atomic_ptr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = atomic_ptr.hpp; sourceTree = "<group>"; };
-		D7C7608B17E5C3AA0018AB91 /* blob.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = blob.hpp; sourceTree = "<group>"; };
-		D7C7608C17E5C3AA0018AB91 /* clock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clock.cpp; sourceTree = "<group>"; };
-		D7C7608D17E5C3AA0018AB91 /* clock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = clock.hpp; sourceTree = "<group>"; };
-		D7C7608E17E5C3AA0018AB91 /* command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = command.hpp; sourceTree = "<group>"; };
-		D7C7608F17E5C3AA0018AB91 /* config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = config.hpp; sourceTree = "<group>"; };
-		D7C7609017E5C3AA0018AB91 /* ctx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctx.cpp; sourceTree = "<group>"; };
-		D7C7609117E5C3AA0018AB91 /* ctx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ctx.hpp; sourceTree = "<group>"; };
-		D7C7609217E5C3AA0018AB91 /* dealer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dealer.cpp; sourceTree = "<group>"; };
-		D7C7609317E5C3AA0018AB91 /* dealer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dealer.hpp; sourceTree = "<group>"; };
-		D7C7609417E5C3AA0018AB91 /* decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decoder.cpp; sourceTree = "<group>"; };
-		D7C7609517E5C3AA0018AB91 /* decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = decoder.hpp; sourceTree = "<group>"; };
-		D7C7609617E5C3AA0018AB91 /* devpoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = devpoll.cpp; sourceTree = "<group>"; };
-		D7C7609717E5C3AA0018AB91 /* devpoll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = devpoll.hpp; sourceTree = "<group>"; };
-		D7C7609817E5C3AA0018AB91 /* dist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dist.cpp; sourceTree = "<group>"; };
-		D7C7609917E5C3AA0018AB91 /* dist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dist.hpp; sourceTree = "<group>"; };
-		D7C7609A17E5C3AA0018AB91 /* encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encoder.cpp; sourceTree = "<group>"; };
-		D7C7609B17E5C3AA0018AB91 /* encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = encoder.hpp; sourceTree = "<group>"; };
-		D7C7609C17E5C3AA0018AB91 /* epoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = epoll.cpp; sourceTree = "<group>"; };
-		D7C7609D17E5C3AA0018AB91 /* epoll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = epoll.hpp; sourceTree = "<group>"; };
-		D7C7609E17E5C3AA0018AB91 /* err.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = err.cpp; sourceTree = "<group>"; };
-		D7C7609F17E5C3AA0018AB91 /* err.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = err.hpp; sourceTree = "<group>"; };
-		D7C760A017E5C3AA0018AB91 /* fd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fd.hpp; sourceTree = "<group>"; };
-		D7C760A117E5C3AA0018AB91 /* fq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fq.cpp; sourceTree = "<group>"; };
-		D7C760A217E5C3AA0018AB91 /* fq.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fq.hpp; sourceTree = "<group>"; };
-		D7C760A317E5C3AA0018AB91 /* i_decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_decoder.hpp; sourceTree = "<group>"; };
-		D7C760A417E5C3AA0018AB91 /* i_encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_encoder.hpp; sourceTree = "<group>"; };
-		D7C760A517E5C3AA0018AB91 /* i_engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_engine.hpp; sourceTree = "<group>"; };
-		D7C760A617E5C3AA0018AB91 /* i_msg_sink.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_msg_sink.hpp; sourceTree = "<group>"; };
-		D7C760A717E5C3AA0018AB91 /* i_msg_source.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_msg_source.hpp; sourceTree = "<group>"; };
-		D7C760A817E5C3AA0018AB91 /* i_poll_events.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_poll_events.hpp; sourceTree = "<group>"; };
-		D7C760A917E5C3AA0018AB91 /* io_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = io_object.cpp; sourceTree = "<group>"; };
-		D7C760AA17E5C3AA0018AB91 /* io_object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = io_object.hpp; sourceTree = "<group>"; };
-		D7C760AB17E5C3AA0018AB91 /* io_thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = io_thread.cpp; sourceTree = "<group>"; };
-		D7C760AC17E5C3AA0018AB91 /* io_thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = io_thread.hpp; sourceTree = "<group>"; };
-		D7C760AD17E5C3AA0018AB91 /* ip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ip.cpp; sourceTree = "<group>"; };
-		D7C760AE17E5C3AA0018AB91 /* ip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ip.hpp; sourceTree = "<group>"; };
-		D7C760AF17E5C3AA0018AB91 /* ipc_address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ipc_address.cpp; sourceTree = "<group>"; };
-		D7C760B017E5C3AA0018AB91 /* ipc_address.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ipc_address.hpp; sourceTree = "<group>"; };
-		D7C760B117E5C3AA0018AB91 /* ipc_connecter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ipc_connecter.cpp; sourceTree = "<group>"; };
-		D7C760B217E5C3AA0018AB91 /* ipc_connecter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ipc_connecter.hpp; sourceTree = "<group>"; };
-		D7C760B317E5C3AA0018AB91 /* ipc_listener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ipc_listener.cpp; sourceTree = "<group>"; };
-		D7C760B417E5C3AA0018AB91 /* ipc_listener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ipc_listener.hpp; sourceTree = "<group>"; };
-		D7C760B517E5C3AA0018AB91 /* kqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kqueue.cpp; sourceTree = "<group>"; };
-		D7C760B617E5C3AA0018AB91 /* kqueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kqueue.hpp; sourceTree = "<group>"; };
-		D7C760B717E5C3AA0018AB91 /* lb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lb.cpp; sourceTree = "<group>"; };
-		D7C760B817E5C3AA0018AB91 /* lb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lb.hpp; sourceTree = "<group>"; };
-		D7C760B917E5C3AA0018AB91 /* likely.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = likely.hpp; sourceTree = "<group>"; };
-		D7C760BA17E5C3AA0018AB91 /* mailbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mailbox.cpp; sourceTree = "<group>"; };
-		D7C760BB17E5C3AA0018AB91 /* mailbox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mailbox.hpp; sourceTree = "<group>"; };
-		D7C760BC17E5C3AA0018AB91 /* msg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msg.cpp; sourceTree = "<group>"; };
-		D7C760BD17E5C3AA0018AB91 /* msg.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = msg.hpp; sourceTree = "<group>"; };
-		D7C760BE17E5C3AA0018AB91 /* mtrie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mtrie.cpp; sourceTree = "<group>"; };
-		D7C760BF17E5C3AA0018AB91 /* mtrie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mtrie.hpp; sourceTree = "<group>"; };
-		D7C760C017E5C3AA0018AB91 /* mutex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mutex.hpp; sourceTree = "<group>"; };
-		D7C760C117E5C3AA0018AB91 /* object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = object.cpp; sourceTree = "<group>"; };
-		D7C760C217E5C3AA0018AB91 /* object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = object.hpp; sourceTree = "<group>"; };
-		D7C760C317E5C3AA0018AB91 /* options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = options.cpp; sourceTree = "<group>"; };
-		D7C760C417E5C3AA0018AB91 /* options.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = options.hpp; sourceTree = "<group>"; };
-		D7C760C517E5C3AA0018AB91 /* own.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = own.cpp; sourceTree = "<group>"; };
-		D7C760C617E5C3AA0018AB91 /* own.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = own.hpp; sourceTree = "<group>"; };
-		D7C760C717E5C3AA0018AB91 /* pair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pair.cpp; sourceTree = "<group>"; };
-		D7C760C817E5C3AA0018AB91 /* pair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pair.hpp; sourceTree = "<group>"; };
-		D7C760C917E5C3AA0018AB91 /* pgm_receiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pgm_receiver.cpp; sourceTree = "<group>"; };
-		D7C760CA17E5C3AA0018AB91 /* pgm_receiver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pgm_receiver.hpp; sourceTree = "<group>"; };
-		D7C760CB17E5C3AA0018AB91 /* pgm_sender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pgm_sender.cpp; sourceTree = "<group>"; };
-		D7C760CC17E5C3AA0018AB91 /* pgm_sender.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pgm_sender.hpp; sourceTree = "<group>"; };
-		D7C760CD17E5C3AA0018AB91 /* pgm_socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pgm_socket.cpp; sourceTree = "<group>"; };
-		D7C760CE17E5C3AA0018AB91 /* pgm_socket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pgm_socket.hpp; sourceTree = "<group>"; };
-		D7C760CF17E5C3AA0018AB91 /* pipe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pipe.cpp; sourceTree = "<group>"; };
-		D7C760D017E5C3AA0018AB91 /* pipe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pipe.hpp; sourceTree = "<group>"; };
-		D7C760D117E5C3AA0018AB91 /* platform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = platform.hpp; sourceTree = "<group>"; };
-		D7C760D217E5C3AA0018AB91 /* poll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = poll.cpp; sourceTree = "<group>"; };
-		D7C760D317E5C3AA0018AB91 /* poll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poll.hpp; sourceTree = "<group>"; };
-		D7C760D417E5C3AA0018AB91 /* poller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poller.hpp; sourceTree = "<group>"; };
-		D7C760D517E5C3AA0018AB91 /* poller_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = poller_base.cpp; sourceTree = "<group>"; };
-		D7C760D617E5C3AA0018AB91 /* poller_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poller_base.hpp; sourceTree = "<group>"; };
-		D7C760D717E5C3AA0018AB91 /* precompiled.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precompiled.cpp; sourceTree = "<group>"; };
-		D7C760D817E5C3AA0018AB91 /* precompiled.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precompiled.hpp; sourceTree = "<group>"; };
-		D7C760D917E5C3AA0018AB91 /* proxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = proxy.cpp; sourceTree = "<group>"; };
-		D7C760DA17E5C3AA0018AB91 /* proxy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = proxy.hpp; sourceTree = "<group>"; };
-		D7C760DB17E5C3AA0018AB91 /* pub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pub.cpp; sourceTree = "<group>"; };
-		D7C760DC17E5C3AA0018AB91 /* pub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pub.hpp; sourceTree = "<group>"; };
-		D7C760DD17E5C3AA0018AB91 /* pull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pull.cpp; sourceTree = "<group>"; };
-		D7C760DE17E5C3AA0018AB91 /* pull.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pull.hpp; sourceTree = "<group>"; };
-		D7C760DF17E5C3AA0018AB91 /* push.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = push.cpp; sourceTree = "<group>"; };
-		D7C760E017E5C3AA0018AB91 /* push.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = push.hpp; sourceTree = "<group>"; };
-		D7C760E117E5C3AA0018AB91 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
-		D7C760E217E5C3AA0018AB91 /* random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = random.hpp; sourceTree = "<group>"; };
-		D7C760E317E5C3AA0018AB91 /* reaper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reaper.cpp; sourceTree = "<group>"; };
-		D7C760E417E5C3AA0018AB91 /* reaper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reaper.hpp; sourceTree = "<group>"; };
-		D7C760E517E5C3AA0018AB91 /* rep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rep.cpp; sourceTree = "<group>"; };
-		D7C760E617E5C3AA0018AB91 /* rep.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rep.hpp; sourceTree = "<group>"; };
-		D7C760E717E5C3AA0018AB91 /* req.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = req.cpp; sourceTree = "<group>"; };
-		D7C760E817E5C3AA0018AB91 /* req.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = req.hpp; sourceTree = "<group>"; };
-		D7C760E917E5C3AA0018AB91 /* router.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = router.cpp; sourceTree = "<group>"; };
-		D7C760EA17E5C3AA0018AB91 /* router.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = router.hpp; sourceTree = "<group>"; };
-		D7C760EB17E5C3AA0018AB91 /* select.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = select.cpp; sourceTree = "<group>"; };
-		D7C760EC17E5C3AA0018AB91 /* select.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = select.hpp; sourceTree = "<group>"; };
-		D7C760ED17E5C3AA0018AB91 /* session_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = session_base.cpp; sourceTree = "<group>"; };
-		D7C760EE17E5C3AA0018AB91 /* session_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = session_base.hpp; sourceTree = "<group>"; };
-		D7C760EF17E5C3AA0018AB91 /* signaler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = signaler.cpp; sourceTree = "<group>"; };
-		D7C760F017E5C3AA0018AB91 /* signaler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = signaler.hpp; sourceTree = "<group>"; };
-		D7C760F117E5C3AA0018AB91 /* socket_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket_base.cpp; sourceTree = "<group>"; };
-		D7C760F217E5C3AA0018AB91 /* socket_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = socket_base.hpp; sourceTree = "<group>"; };
-		D7C760F317E5C3AA0018AB91 /* stdint.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stdint.hpp; sourceTree = "<group>"; };
-		D7C760F417E5C3AA0018AB91 /* stream_engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream_engine.cpp; sourceTree = "<group>"; };
-		D7C760F517E5C3AA0018AB91 /* stream_engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stream_engine.hpp; sourceTree = "<group>"; };
-		D7C760F617E5C3AA0018AB91 /* sub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sub.cpp; sourceTree = "<group>"; };
-		D7C760F717E5C3AA0018AB91 /* sub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sub.hpp; sourceTree = "<group>"; };
-		D7C760F817E5C3AA0018AB91 /* tcp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp.cpp; sourceTree = "<group>"; };
-		D7C760F917E5C3AA0018AB91 /* tcp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp.hpp; sourceTree = "<group>"; };
-		D7C760FA17E5C3AA0018AB91 /* tcp_address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_address.cpp; sourceTree = "<group>"; };
-		D7C760FB17E5C3AA0018AB91 /* tcp_address.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_address.hpp; sourceTree = "<group>"; };
-		D7C760FC17E5C3AA0018AB91 /* tcp_connecter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_connecter.cpp; sourceTree = "<group>"; };
-		D7C760FD17E5C3AA0018AB91 /* tcp_connecter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_connecter.hpp; sourceTree = "<group>"; };
-		D7C760FE17E5C3AA0018AB91 /* tcp_listener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_listener.cpp; sourceTree = "<group>"; };
-		D7C760FF17E5C3AA0018AB91 /* tcp_listener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_listener.hpp; sourceTree = "<group>"; };
-		D7C7610017E5C3AA0018AB91 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
-		D7C7610117E5C3AA0018AB91 /* thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = thread.hpp; sourceTree = "<group>"; };
-		D7C7610217E5C3AA0018AB91 /* trie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trie.cpp; sourceTree = "<group>"; };
-		D7C7610317E5C3AA0018AB91 /* trie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = trie.hpp; sourceTree = "<group>"; };
-		D7C7610417E5C3AA0018AB91 /* v1_decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v1_decoder.cpp; sourceTree = "<group>"; };
-		D7C7610517E5C3AA0018AB91 /* v1_decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v1_decoder.hpp; sourceTree = "<group>"; };
-		D7C7610617E5C3AA0018AB91 /* v1_encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v1_encoder.cpp; sourceTree = "<group>"; };
-		D7C7610717E5C3AA0018AB91 /* v1_encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v1_encoder.hpp; sourceTree = "<group>"; };
-		D7C7610817E5C3AA0018AB91 /* v1_protocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v1_protocol.hpp; sourceTree = "<group>"; };
-		D7C7610917E5C3AA0018AB91 /* windows.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = windows.hpp; sourceTree = "<group>"; };
-		D7C7610A17E5C3AA0018AB91 /* wire.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wire.hpp; sourceTree = "<group>"; };
-		D7C7610B17E5C3AA0018AB91 /* xpub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xpub.cpp; sourceTree = "<group>"; };
-		D7C7610C17E5C3AA0018AB91 /* xpub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xpub.hpp; sourceTree = "<group>"; };
-		D7C7610D17E5C3AA0018AB91 /* xsub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xsub.cpp; sourceTree = "<group>"; };
-		D7C7610E17E5C3AA0018AB91 /* xsub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xsub.hpp; sourceTree = "<group>"; };
-		D7C7610F17E5C3AA0018AB91 /* ypipe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ypipe.hpp; sourceTree = "<group>"; };
-		D7C7611017E5C3AA0018AB91 /* yqueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = yqueue.hpp; sourceTree = "<group>"; };
-		D7C7611117E5C3AA0018AB91 /* zmq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zmq.cpp; sourceTree = "<group>"; };
-		D7C7611217E5C3AA0018AB91 /* zmq_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zmq_utils.cpp; sourceTree = "<group>"; };
-		D7C7615017E5C3B70018AB91 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
-		D7C7615117E5C3B70018AB91 /* zmq_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq_utils.h; sourceTree = "<group>"; };
+		D7E4D06A182FA29E00764732 /* libzmq.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libzmq.3.dylib; sourceTree = "<group>"; };
+		D7E4D06B182FA29E00764732 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
+		D7E4D06C182FA29E00764732 /* libzmq.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libzmq.dylib; sourceTree = "<group>"; };
+		D7E4D06D182FA29E00764732 /* libzmq.la */ = {isa = PBXFileReference; lastKnownFileType = file; path = libzmq.la; sourceTree = "<group>"; };
+		D7E4D06E182FA29E00764732 /* libzmq.lai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libzmq.lai; sourceTree = "<group>"; };
+		D7E4D06F182FA29E00764732 /* libzmq_la-address.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-address.o"; sourceTree = "<group>"; };
+		D7E4D070182FA29E00764732 /* libzmq_la-clock.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-clock.o"; sourceTree = "<group>"; };
+		D7E4D071182FA29E00764732 /* libzmq_la-ctx.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-ctx.o"; sourceTree = "<group>"; };
+		D7E4D072182FA29E00764732 /* libzmq_la-curve_client.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-curve_client.o"; sourceTree = "<group>"; };
+		D7E4D073182FA29E00764732 /* libzmq_la-curve_server.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-curve_server.o"; sourceTree = "<group>"; };
+		D7E4D074182FA29E00764732 /* libzmq_la-dealer.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-dealer.o"; sourceTree = "<group>"; };
+		D7E4D075182FA29E00764732 /* libzmq_la-devpoll.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-devpoll.o"; sourceTree = "<group>"; };
+		D7E4D076182FA29E00764732 /* libzmq_la-dist.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-dist.o"; sourceTree = "<group>"; };
+		D7E4D077182FA29E00764732 /* libzmq_la-epoll.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-epoll.o"; sourceTree = "<group>"; };
+		D7E4D078182FA29E00764732 /* libzmq_la-err.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-err.o"; sourceTree = "<group>"; };
+		D7E4D079182FA29E00764732 /* libzmq_la-fq.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-fq.o"; sourceTree = "<group>"; };
+		D7E4D07A182FA29E00764732 /* libzmq_la-io_object.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-io_object.o"; sourceTree = "<group>"; };
+		D7E4D07B182FA29E00764732 /* libzmq_la-io_thread.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-io_thread.o"; sourceTree = "<group>"; };
+		D7E4D07C182FA29E00764732 /* libzmq_la-ip.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-ip.o"; sourceTree = "<group>"; };
+		D7E4D07D182FA29E00764732 /* libzmq_la-ipc_address.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-ipc_address.o"; sourceTree = "<group>"; };
+		D7E4D07E182FA29E00764732 /* libzmq_la-ipc_connecter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-ipc_connecter.o"; sourceTree = "<group>"; };
+		D7E4D07F182FA29E00764732 /* libzmq_la-ipc_listener.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-ipc_listener.o"; sourceTree = "<group>"; };
+		D7E4D080182FA29E00764732 /* libzmq_la-kqueue.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-kqueue.o"; sourceTree = "<group>"; };
+		D7E4D081182FA29E00764732 /* libzmq_la-lb.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-lb.o"; sourceTree = "<group>"; };
+		D7E4D082182FA29E00764732 /* libzmq_la-mailbox.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-mailbox.o"; sourceTree = "<group>"; };
+		D7E4D083182FA29E00764732 /* libzmq_la-mechanism.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-mechanism.o"; sourceTree = "<group>"; };
+		D7E4D084182FA29E00764732 /* libzmq_la-msg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-msg.o"; sourceTree = "<group>"; };
+		D7E4D085182FA29E00764732 /* libzmq_la-mtrie.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-mtrie.o"; sourceTree = "<group>"; };
+		D7E4D086182FA29E00764732 /* libzmq_la-null_mechanism.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-null_mechanism.o"; sourceTree = "<group>"; };
+		D7E4D087182FA29E00764732 /* libzmq_la-object.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-object.o"; sourceTree = "<group>"; };
+		D7E4D088182FA29E00764732 /* libzmq_la-options.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-options.o"; sourceTree = "<group>"; };
+		D7E4D089182FA29E00764732 /* libzmq_la-own.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-own.o"; sourceTree = "<group>"; };
+		D7E4D08A182FA29E00764732 /* libzmq_la-pair.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-pair.o"; sourceTree = "<group>"; };
+		D7E4D08B182FA29E00764732 /* libzmq_la-pgm_receiver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-pgm_receiver.o"; sourceTree = "<group>"; };
+		D7E4D08C182FA29E00764732 /* libzmq_la-pgm_sender.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-pgm_sender.o"; sourceTree = "<group>"; };
+		D7E4D08D182FA29E00764732 /* libzmq_la-pgm_socket.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-pgm_socket.o"; sourceTree = "<group>"; };
+		D7E4D08E182FA29E00764732 /* libzmq_la-pipe.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-pipe.o"; sourceTree = "<group>"; };
+		D7E4D08F182FA29E00764732 /* libzmq_la-plain_mechanism.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-plain_mechanism.o"; sourceTree = "<group>"; };
+		D7E4D090182FA29E00764732 /* libzmq_la-poll.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-poll.o"; sourceTree = "<group>"; };
+		D7E4D091182FA29E00764732 /* libzmq_la-poller_base.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-poller_base.o"; sourceTree = "<group>"; };
+		D7E4D092182FA29E00764732 /* libzmq_la-proxy.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-proxy.o"; sourceTree = "<group>"; };
+		D7E4D093182FA29E00764732 /* libzmq_la-pub.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-pub.o"; sourceTree = "<group>"; };
+		D7E4D094182FA29E00764732 /* libzmq_la-pull.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-pull.o"; sourceTree = "<group>"; };
+		D7E4D095182FA29E00764732 /* libzmq_la-push.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-push.o"; sourceTree = "<group>"; };
+		D7E4D096182FA29E00764732 /* libzmq_la-random.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-random.o"; sourceTree = "<group>"; };
+		D7E4D097182FA29E00764732 /* libzmq_la-raw_decoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-raw_decoder.o"; sourceTree = "<group>"; };
+		D7E4D098182FA29E00764732 /* libzmq_la-raw_encoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-raw_encoder.o"; sourceTree = "<group>"; };
+		D7E4D099182FA29E00764732 /* libzmq_la-reaper.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-reaper.o"; sourceTree = "<group>"; };
+		D7E4D09A182FA29E00764732 /* libzmq_la-rep.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-rep.o"; sourceTree = "<group>"; };
+		D7E4D09B182FA29E00764732 /* libzmq_la-req.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-req.o"; sourceTree = "<group>"; };
+		D7E4D09C182FA29E00764732 /* libzmq_la-router.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-router.o"; sourceTree = "<group>"; };
+		D7E4D09D182FA29E00764732 /* libzmq_la-select.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-select.o"; sourceTree = "<group>"; };
+		D7E4D09E182FA29E00764732 /* libzmq_la-session_base.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-session_base.o"; sourceTree = "<group>"; };
+		D7E4D09F182FA29E00764732 /* libzmq_la-signaler.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-signaler.o"; sourceTree = "<group>"; };
+		D7E4D0A0182FA29E00764732 /* libzmq_la-socket_base.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-socket_base.o"; sourceTree = "<group>"; };
+		D7E4D0A1182FA29E00764732 /* libzmq_la-stream.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-stream.o"; sourceTree = "<group>"; };
+		D7E4D0A2182FA29E00764732 /* libzmq_la-stream_engine.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-stream_engine.o"; sourceTree = "<group>"; };
+		D7E4D0A3182FA29E00764732 /* libzmq_la-sub.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-sub.o"; sourceTree = "<group>"; };
+		D7E4D0A4182FA29E00764732 /* libzmq_la-tcp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-tcp.o"; sourceTree = "<group>"; };
+		D7E4D0A5182FA29E00764732 /* libzmq_la-tcp_address.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-tcp_address.o"; sourceTree = "<group>"; };
+		D7E4D0A6182FA29E00764732 /* libzmq_la-tcp_connecter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-tcp_connecter.o"; sourceTree = "<group>"; };
+		D7E4D0A7182FA29E00764732 /* libzmq_la-tcp_listener.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-tcp_listener.o"; sourceTree = "<group>"; };
+		D7E4D0A8182FA29E00764732 /* libzmq_la-thread.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-thread.o"; sourceTree = "<group>"; };
+		D7E4D0A9182FA29E00764732 /* libzmq_la-trie.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-trie.o"; sourceTree = "<group>"; };
+		D7E4D0AA182FA29E00764732 /* libzmq_la-v1_decoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-v1_decoder.o"; sourceTree = "<group>"; };
+		D7E4D0AB182FA29E00764732 /* libzmq_la-v1_encoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-v1_encoder.o"; sourceTree = "<group>"; };
+		D7E4D0AC182FA29E00764732 /* libzmq_la-v2_decoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-v2_decoder.o"; sourceTree = "<group>"; };
+		D7E4D0AD182FA29E00764732 /* libzmq_la-v2_encoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-v2_encoder.o"; sourceTree = "<group>"; };
+		D7E4D0AE182FA29E00764732 /* libzmq_la-xpub.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-xpub.o"; sourceTree = "<group>"; };
+		D7E4D0AF182FA29E00764732 /* libzmq_la-xsub.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-xsub.o"; sourceTree = "<group>"; };
+		D7E4D0B0182FA29E00764732 /* libzmq_la-zmq.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-zmq.o"; sourceTree = "<group>"; };
+		D7E4D0B1182FA29E00764732 /* libzmq_la-zmq_utils.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libzmq_la-zmq_utils.o"; sourceTree = "<group>"; };
+		D7E4D0B2182FA29E00764732 /* address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = address.cpp; sourceTree = "<group>"; };
+		D7E4D0B3182FA29E00764732 /* address.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = address.hpp; sourceTree = "<group>"; };
+		D7E4D0B4182FA29E00764732 /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
+		D7E4D0B5182FA29E00764732 /* atomic_counter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = atomic_counter.hpp; sourceTree = "<group>"; };
+		D7E4D0B6182FA29E00764732 /* atomic_ptr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = atomic_ptr.hpp; sourceTree = "<group>"; };
+		D7E4D0B7182FA29E00764732 /* blob.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = blob.hpp; sourceTree = "<group>"; };
+		D7E4D0B8182FA29E00764732 /* clock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clock.cpp; sourceTree = "<group>"; };
+		D7E4D0B9182FA29E00764732 /* clock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = clock.hpp; sourceTree = "<group>"; };
+		D7E4D0BA182FA29E00764732 /* command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = command.hpp; sourceTree = "<group>"; };
+		D7E4D0BB182FA29E00764732 /* config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = config.hpp; sourceTree = "<group>"; };
+		D7E4D0BC182FA29E00764732 /* ctx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctx.cpp; sourceTree = "<group>"; };
+		D7E4D0BD182FA29E00764732 /* ctx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ctx.hpp; sourceTree = "<group>"; };
+		D7E4D0BE182FA29E00764732 /* curve_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = curve_client.cpp; sourceTree = "<group>"; };
+		D7E4D0BF182FA29E00764732 /* curve_client.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = curve_client.hpp; sourceTree = "<group>"; };
+		D7E4D0C0182FA29E00764732 /* curve_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = curve_server.cpp; sourceTree = "<group>"; };
+		D7E4D0C1182FA29E00764732 /* curve_server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = curve_server.hpp; sourceTree = "<group>"; };
+		D7E4D0C2182FA29E00764732 /* dbuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dbuffer.hpp; sourceTree = "<group>"; };
+		D7E4D0C3182FA29E00764732 /* dealer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dealer.cpp; sourceTree = "<group>"; };
+		D7E4D0C4182FA29E00764732 /* dealer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dealer.hpp; sourceTree = "<group>"; };
+		D7E4D0C5182FA29E00764732 /* decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = decoder.hpp; sourceTree = "<group>"; };
+		D7E4D0C6182FA29E00764732 /* devpoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = devpoll.cpp; sourceTree = "<group>"; };
+		D7E4D0C7182FA29E00764732 /* devpoll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = devpoll.hpp; sourceTree = "<group>"; };
+		D7E4D0C8182FA29E00764732 /* dist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dist.cpp; sourceTree = "<group>"; };
+		D7E4D0C9182FA29E00764732 /* dist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dist.hpp; sourceTree = "<group>"; };
+		D7E4D0CA182FA29E00764732 /* encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = encoder.hpp; sourceTree = "<group>"; };
+		D7E4D0CB182FA29E00764732 /* epoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = epoll.cpp; sourceTree = "<group>"; };
+		D7E4D0CC182FA29E00764732 /* epoll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = epoll.hpp; sourceTree = "<group>"; };
+		D7E4D0CD182FA29E00764732 /* err.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = err.cpp; sourceTree = "<group>"; };
+		D7E4D0CE182FA29E00764732 /* err.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = err.hpp; sourceTree = "<group>"; };
+		D7E4D0CF182FA29E00764732 /* fd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fd.hpp; sourceTree = "<group>"; };
+		D7E4D0D0182FA29E00764732 /* fq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fq.cpp; sourceTree = "<group>"; };
+		D7E4D0D1182FA29E00764732 /* fq.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fq.hpp; sourceTree = "<group>"; };
+		D7E4D0D2182FA29E00764732 /* i_decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_decoder.hpp; sourceTree = "<group>"; };
+		D7E4D0D3182FA29E00764732 /* i_encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_encoder.hpp; sourceTree = "<group>"; };
+		D7E4D0D4182FA29E00764732 /* i_engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_engine.hpp; sourceTree = "<group>"; };
+		D7E4D0D5182FA29E00764732 /* i_poll_events.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = i_poll_events.hpp; sourceTree = "<group>"; };
+		D7E4D0D6182FA29E00764732 /* io_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = io_object.cpp; sourceTree = "<group>"; };
+		D7E4D0D7182FA29E00764732 /* io_object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = io_object.hpp; sourceTree = "<group>"; };
+		D7E4D0D8182FA29E00764732 /* io_thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = io_thread.cpp; sourceTree = "<group>"; };
+		D7E4D0D9182FA29E00764732 /* io_thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = io_thread.hpp; sourceTree = "<group>"; };
+		D7E4D0DA182FA29E00764732 /* ip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ip.cpp; sourceTree = "<group>"; };
+		D7E4D0DB182FA29E00764732 /* ip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ip.hpp; sourceTree = "<group>"; };
+		D7E4D0DC182FA29E00764732 /* ipc_address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ipc_address.cpp; sourceTree = "<group>"; };
+		D7E4D0DD182FA29E00764732 /* ipc_address.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ipc_address.hpp; sourceTree = "<group>"; };
+		D7E4D0DE182FA29E00764732 /* ipc_connecter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ipc_connecter.cpp; sourceTree = "<group>"; };
+		D7E4D0DF182FA29E00764732 /* ipc_connecter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ipc_connecter.hpp; sourceTree = "<group>"; };
+		D7E4D0E0182FA29E00764732 /* ipc_listener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ipc_listener.cpp; sourceTree = "<group>"; };
+		D7E4D0E1182FA29E00764732 /* ipc_listener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ipc_listener.hpp; sourceTree = "<group>"; };
+		D7E4D0E2182FA29E00764732 /* kqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kqueue.cpp; sourceTree = "<group>"; };
+		D7E4D0E3182FA29E00764732 /* kqueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kqueue.hpp; sourceTree = "<group>"; };
+		D7E4D0E4182FA29E00764732 /* lb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lb.cpp; sourceTree = "<group>"; };
+		D7E4D0E5182FA29E00764732 /* lb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lb.hpp; sourceTree = "<group>"; };
+		D7E4D0E6182FA29E00764732 /* likely.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = likely.hpp; sourceTree = "<group>"; };
+		D7E4D0E7182FA29E00764732 /* mailbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mailbox.cpp; sourceTree = "<group>"; };
+		D7E4D0E8182FA29E00764732 /* mailbox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mailbox.hpp; sourceTree = "<group>"; };
+		D7E4D0E9182FA29E00764732 /* mechanism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mechanism.cpp; sourceTree = "<group>"; };
+		D7E4D0EA182FA29E00764732 /* mechanism.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mechanism.hpp; sourceTree = "<group>"; };
+		D7E4D0EB182FA29E00764732 /* msg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msg.cpp; sourceTree = "<group>"; };
+		D7E4D0EC182FA29E00764732 /* msg.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = msg.hpp; sourceTree = "<group>"; };
+		D7E4D0ED182FA29E00764732 /* mtrie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mtrie.cpp; sourceTree = "<group>"; };
+		D7E4D0EE182FA29E00764732 /* mtrie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mtrie.hpp; sourceTree = "<group>"; };
+		D7E4D0EF182FA29E00764732 /* mutex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mutex.hpp; sourceTree = "<group>"; };
+		D7E4D0F0182FA29E00764732 /* null_mechanism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = null_mechanism.cpp; sourceTree = "<group>"; };
+		D7E4D0F1182FA29E00764732 /* null_mechanism.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = null_mechanism.hpp; sourceTree = "<group>"; };
+		D7E4D0F2182FA29E00764732 /* object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = object.cpp; sourceTree = "<group>"; };
+		D7E4D0F3182FA29E00764732 /* object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = object.hpp; sourceTree = "<group>"; };
+		D7E4D0F4182FA29E00764732 /* options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = options.cpp; sourceTree = "<group>"; };
+		D7E4D0F5182FA29E00764732 /* options.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = options.hpp; sourceTree = "<group>"; };
+		D7E4D0F6182FA29E00764732 /* own.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = own.cpp; sourceTree = "<group>"; };
+		D7E4D0F7182FA29E00764732 /* own.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = own.hpp; sourceTree = "<group>"; };
+		D7E4D0F8182FA29E00764732 /* pair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pair.cpp; sourceTree = "<group>"; };
+		D7E4D0F9182FA29E00764732 /* pair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pair.hpp; sourceTree = "<group>"; };
+		D7E4D0FA182FA29E00764732 /* pgm_receiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pgm_receiver.cpp; sourceTree = "<group>"; };
+		D7E4D0FB182FA29E00764732 /* pgm_receiver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pgm_receiver.hpp; sourceTree = "<group>"; };
+		D7E4D0FC182FA29E00764732 /* pgm_sender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pgm_sender.cpp; sourceTree = "<group>"; };
+		D7E4D0FD182FA29E00764732 /* pgm_sender.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pgm_sender.hpp; sourceTree = "<group>"; };
+		D7E4D0FE182FA29E00764732 /* pgm_socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pgm_socket.cpp; sourceTree = "<group>"; };
+		D7E4D0FF182FA29E00764732 /* pgm_socket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pgm_socket.hpp; sourceTree = "<group>"; };
+		D7E4D100182FA29E00764732 /* pipe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pipe.cpp; sourceTree = "<group>"; };
+		D7E4D101182FA29E00764732 /* pipe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pipe.hpp; sourceTree = "<group>"; };
+		D7E4D102182FA29E00764732 /* plain_mechanism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plain_mechanism.cpp; sourceTree = "<group>"; };
+		D7E4D103182FA29E00764732 /* plain_mechanism.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = plain_mechanism.hpp; sourceTree = "<group>"; };
+		D7E4D104182FA29E00764732 /* platform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = platform.hpp; sourceTree = "<group>"; };
+		D7E4D105182FA29E00764732 /* poll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = poll.cpp; sourceTree = "<group>"; };
+		D7E4D106182FA29E00764732 /* poll.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poll.hpp; sourceTree = "<group>"; };
+		D7E4D107182FA29E00764732 /* poller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poller.hpp; sourceTree = "<group>"; };
+		D7E4D108182FA29E00764732 /* poller_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = poller_base.cpp; sourceTree = "<group>"; };
+		D7E4D109182FA29E00764732 /* poller_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poller_base.hpp; sourceTree = "<group>"; };
+		D7E4D10A182FA29E00764732 /* precompiled.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precompiled.cpp; sourceTree = "<group>"; };
+		D7E4D10B182FA29E00764732 /* precompiled.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precompiled.hpp; sourceTree = "<group>"; };
+		D7E4D10C182FA29E00764732 /* proxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = proxy.cpp; sourceTree = "<group>"; };
+		D7E4D10D182FA29E00764732 /* proxy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = proxy.hpp; sourceTree = "<group>"; };
+		D7E4D10E182FA29E00764732 /* pub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pub.cpp; sourceTree = "<group>"; };
+		D7E4D10F182FA29E00764732 /* pub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pub.hpp; sourceTree = "<group>"; };
+		D7E4D110182FA29E00764732 /* pull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pull.cpp; sourceTree = "<group>"; };
+		D7E4D111182FA29E00764732 /* pull.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pull.hpp; sourceTree = "<group>"; };
+		D7E4D112182FA29E00764732 /* push.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = push.cpp; sourceTree = "<group>"; };
+		D7E4D113182FA29E00764732 /* push.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = push.hpp; sourceTree = "<group>"; };
+		D7E4D114182FA29E00764732 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		D7E4D115182FA29E00764732 /* random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = random.hpp; sourceTree = "<group>"; };
+		D7E4D116182FA29E00764732 /* raw_decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = raw_decoder.cpp; sourceTree = "<group>"; };
+		D7E4D117182FA29E00764732 /* raw_decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = raw_decoder.hpp; sourceTree = "<group>"; };
+		D7E4D118182FA29E00764732 /* raw_encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = raw_encoder.cpp; sourceTree = "<group>"; };
+		D7E4D119182FA29E00764732 /* raw_encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = raw_encoder.hpp; sourceTree = "<group>"; };
+		D7E4D11A182FA29E00764732 /* reaper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reaper.cpp; sourceTree = "<group>"; };
+		D7E4D11B182FA29E00764732 /* reaper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reaper.hpp; sourceTree = "<group>"; };
+		D7E4D11C182FA29E00764732 /* rep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rep.cpp; sourceTree = "<group>"; };
+		D7E4D11D182FA29E00764732 /* rep.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rep.hpp; sourceTree = "<group>"; };
+		D7E4D11E182FA29E00764732 /* req.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = req.cpp; sourceTree = "<group>"; };
+		D7E4D11F182FA29E00764732 /* req.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = req.hpp; sourceTree = "<group>"; };
+		D7E4D120182FA29E00764732 /* router.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = router.cpp; sourceTree = "<group>"; };
+		D7E4D121182FA29E00764732 /* router.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = router.hpp; sourceTree = "<group>"; };
+		D7E4D122182FA29E00764732 /* select.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = select.cpp; sourceTree = "<group>"; };
+		D7E4D123182FA29E00764732 /* select.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = select.hpp; sourceTree = "<group>"; };
+		D7E4D124182FA29E00764732 /* session_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = session_base.cpp; sourceTree = "<group>"; };
+		D7E4D125182FA29E00764732 /* session_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = session_base.hpp; sourceTree = "<group>"; };
+		D7E4D126182FA29E00764732 /* signaler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = signaler.cpp; sourceTree = "<group>"; };
+		D7E4D127182FA29E00764732 /* signaler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = signaler.hpp; sourceTree = "<group>"; };
+		D7E4D128182FA29E00764732 /* socket_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket_base.cpp; sourceTree = "<group>"; };
+		D7E4D129182FA29E00764732 /* socket_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = socket_base.hpp; sourceTree = "<group>"; };
+		D7E4D12A182FA29E00764732 /* stdint.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stdint.hpp; sourceTree = "<group>"; };
+		D7E4D12B182FA29E00764732 /* stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream.cpp; sourceTree = "<group>"; };
+		D7E4D12C182FA29E00764732 /* stream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stream.hpp; sourceTree = "<group>"; };
+		D7E4D12D182FA29E00764732 /* stream_engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream_engine.cpp; sourceTree = "<group>"; };
+		D7E4D12E182FA29E00764732 /* stream_engine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stream_engine.hpp; sourceTree = "<group>"; };
+		D7E4D12F182FA29E00764732 /* sub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sub.cpp; sourceTree = "<group>"; };
+		D7E4D130182FA29E00764732 /* sub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sub.hpp; sourceTree = "<group>"; };
+		D7E4D131182FA29E00764732 /* tcp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp.cpp; sourceTree = "<group>"; };
+		D7E4D132182FA29E00764732 /* tcp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp.hpp; sourceTree = "<group>"; };
+		D7E4D133182FA29E00764732 /* tcp_address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_address.cpp; sourceTree = "<group>"; };
+		D7E4D134182FA29E00764732 /* tcp_address.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_address.hpp; sourceTree = "<group>"; };
+		D7E4D135182FA29E00764732 /* tcp_connecter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_connecter.cpp; sourceTree = "<group>"; };
+		D7E4D136182FA29E00764732 /* tcp_connecter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_connecter.hpp; sourceTree = "<group>"; };
+		D7E4D137182FA29E00764732 /* tcp_listener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_listener.cpp; sourceTree = "<group>"; };
+		D7E4D138182FA29E00764732 /* tcp_listener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_listener.hpp; sourceTree = "<group>"; };
+		D7E4D139182FA29E00764732 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		D7E4D13A182FA29E00764732 /* thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = thread.hpp; sourceTree = "<group>"; };
+		D7E4D13B182FA29E00764732 /* trie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trie.cpp; sourceTree = "<group>"; };
+		D7E4D13C182FA29E00764732 /* trie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = trie.hpp; sourceTree = "<group>"; };
+		D7E4D13D182FA29E00764732 /* v1_decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v1_decoder.cpp; sourceTree = "<group>"; };
+		D7E4D13E182FA29E00764732 /* v1_decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v1_decoder.hpp; sourceTree = "<group>"; };
+		D7E4D13F182FA29E00764732 /* v1_encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v1_encoder.cpp; sourceTree = "<group>"; };
+		D7E4D140182FA29E00764732 /* v1_encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v1_encoder.hpp; sourceTree = "<group>"; };
+		D7E4D141182FA29E00764732 /* v2_decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v2_decoder.cpp; sourceTree = "<group>"; };
+		D7E4D142182FA29E00764732 /* v2_decoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v2_decoder.hpp; sourceTree = "<group>"; };
+		D7E4D143182FA29E00764732 /* v2_encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v2_encoder.cpp; sourceTree = "<group>"; };
+		D7E4D144182FA29E00764732 /* v2_encoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v2_encoder.hpp; sourceTree = "<group>"; };
+		D7E4D145182FA29E00764732 /* v2_protocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = v2_protocol.hpp; sourceTree = "<group>"; };
+		D7E4D146182FA29E00764732 /* windows.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = windows.hpp; sourceTree = "<group>"; };
+		D7E4D147182FA29E00764732 /* wire.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wire.hpp; sourceTree = "<group>"; };
+		D7E4D148182FA29E00764732 /* xpub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xpub.cpp; sourceTree = "<group>"; };
+		D7E4D149182FA29E00764732 /* xpub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xpub.hpp; sourceTree = "<group>"; };
+		D7E4D14A182FA29E00764732 /* xsub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xsub.cpp; sourceTree = "<group>"; };
+		D7E4D14B182FA29E00764732 /* xsub.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xsub.hpp; sourceTree = "<group>"; };
+		D7E4D14C182FA29E00764732 /* ypipe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ypipe.hpp; sourceTree = "<group>"; };
+		D7E4D14D182FA29E00764732 /* ypipe_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ypipe_base.hpp; sourceTree = "<group>"; };
+		D7E4D14E182FA29E00764732 /* ypipe_conflate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ypipe_conflate.hpp; sourceTree = "<group>"; };
+		D7E4D14F182FA29E00764732 /* yqueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = yqueue.hpp; sourceTree = "<group>"; };
+		D7E4D150182FA29E00764732 /* zmq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zmq.cpp; sourceTree = "<group>"; };
+		D7E4D151182FA29E00764732 /* zmq_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zmq_utils.cpp; sourceTree = "<group>"; };
+		D7E4D1DD182FA2A800764732 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
+		D7E4D1DE182FA2A800764732 /* zmq_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq_utils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +461,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C75F8D17E5BFF00018AB91 /* Foundation.framework in Frameworks */,
+				D7E4D152182FA29E00764732 /* libzmq.3.dylib in Frameworks */,
+				D7E4D153182FA29E00764732 /* libzmq.a in Frameworks */,
+				D7E4D154182FA29E00764732 /* libzmq.dylib in Frameworks */,
+				D7E4D155182FA29E00764732 /* libzmq_la-address.o in Frameworks */,
+				D7E4D156182FA29E00764732 /* libzmq_la-clock.o in Frameworks */,
+				D7E4D157182FA29E00764732 /* libzmq_la-ctx.o in Frameworks */,
+				D7E4D158182FA29E00764732 /* libzmq_la-curve_client.o in Frameworks */,
+				D7E4D159182FA29E00764732 /* libzmq_la-curve_server.o in Frameworks */,
+				D7E4D15A182FA29E00764732 /* libzmq_la-dealer.o in Frameworks */,
+				D7E4D15B182FA29E00764732 /* libzmq_la-devpoll.o in Frameworks */,
+				D7E4D15C182FA29E00764732 /* libzmq_la-dist.o in Frameworks */,
+				D7E4D15D182FA29E00764732 /* libzmq_la-epoll.o in Frameworks */,
+				D7E4D15E182FA29E00764732 /* libzmq_la-err.o in Frameworks */,
+				D7E4D15F182FA29E00764732 /* libzmq_la-fq.o in Frameworks */,
+				D7E4D160182FA29E00764732 /* libzmq_la-io_object.o in Frameworks */,
+				D7E4D161182FA29E00764732 /* libzmq_la-io_thread.o in Frameworks */,
+				D7E4D162182FA29E00764732 /* libzmq_la-ip.o in Frameworks */,
+				D7E4D163182FA29E00764732 /* libzmq_la-ipc_address.o in Frameworks */,
+				D7E4D164182FA29E00764732 /* libzmq_la-ipc_connecter.o in Frameworks */,
+				D7E4D165182FA29E00764732 /* libzmq_la-ipc_listener.o in Frameworks */,
+				D7E4D166182FA29E00764732 /* libzmq_la-kqueue.o in Frameworks */,
+				D7E4D167182FA29E00764732 /* libzmq_la-lb.o in Frameworks */,
+				D7E4D168182FA29E00764732 /* libzmq_la-mailbox.o in Frameworks */,
+				D7E4D169182FA29E00764732 /* libzmq_la-mechanism.o in Frameworks */,
+				D7E4D16A182FA29E00764732 /* libzmq_la-msg.o in Frameworks */,
+				D7E4D16B182FA29E00764732 /* libzmq_la-mtrie.o in Frameworks */,
+				D7E4D16C182FA29E00764732 /* libzmq_la-null_mechanism.o in Frameworks */,
+				D7E4D16D182FA29E00764732 /* libzmq_la-object.o in Frameworks */,
+				D7E4D16E182FA29E00764732 /* libzmq_la-options.o in Frameworks */,
+				D7E4D16F182FA29E00764732 /* libzmq_la-own.o in Frameworks */,
+				D7E4D170182FA29E00764732 /* libzmq_la-pair.o in Frameworks */,
+				D7E4D171182FA29E00764732 /* libzmq_la-pgm_receiver.o in Frameworks */,
+				D7E4D172182FA29E00764732 /* libzmq_la-pgm_sender.o in Frameworks */,
+				D7E4D173182FA29E00764732 /* libzmq_la-pgm_socket.o in Frameworks */,
+				D7E4D174182FA29E00764732 /* libzmq_la-pipe.o in Frameworks */,
+				D7E4D175182FA29E00764732 /* libzmq_la-plain_mechanism.o in Frameworks */,
+				D7E4D176182FA29E00764732 /* libzmq_la-poll.o in Frameworks */,
+				D7E4D177182FA29E00764732 /* libzmq_la-poller_base.o in Frameworks */,
+				D7E4D178182FA29E00764732 /* libzmq_la-proxy.o in Frameworks */,
+				D7E4D179182FA29E00764732 /* libzmq_la-pub.o in Frameworks */,
+				D7E4D17A182FA29E00764732 /* libzmq_la-pull.o in Frameworks */,
+				D7E4D17B182FA29E00764732 /* libzmq_la-push.o in Frameworks */,
+				D7E4D17C182FA29E00764732 /* libzmq_la-random.o in Frameworks */,
+				D7E4D17D182FA29E00764732 /* libzmq_la-raw_decoder.o in Frameworks */,
+				D7E4D17E182FA29E00764732 /* libzmq_la-raw_encoder.o in Frameworks */,
+				D7E4D17F182FA29E00764732 /* libzmq_la-reaper.o in Frameworks */,
+				D7E4D180182FA29E00764732 /* libzmq_la-rep.o in Frameworks */,
+				D7E4D181182FA29E00764732 /* libzmq_la-req.o in Frameworks */,
+				D7E4D182182FA29E00764732 /* libzmq_la-router.o in Frameworks */,
+				D7E4D183182FA29E00764732 /* libzmq_la-select.o in Frameworks */,
+				D7E4D184182FA29E00764732 /* libzmq_la-session_base.o in Frameworks */,
+				D7E4D185182FA29E00764732 /* libzmq_la-signaler.o in Frameworks */,
+				D7E4D186182FA29E00764732 /* libzmq_la-socket_base.o in Frameworks */,
+				D7E4D187182FA29E00764732 /* libzmq_la-stream.o in Frameworks */,
+				D7E4D188182FA29E00764732 /* libzmq_la-stream_engine.o in Frameworks */,
+				D7E4D189182FA29E00764732 /* libzmq_la-sub.o in Frameworks */,
+				D7E4D18A182FA29E00764732 /* libzmq_la-tcp.o in Frameworks */,
+				D7E4D18B182FA29E00764732 /* libzmq_la-tcp_address.o in Frameworks */,
+				D7E4D18C182FA29E00764732 /* libzmq_la-tcp_connecter.o in Frameworks */,
+				D7E4D18D182FA29E00764732 /* libzmq_la-tcp_listener.o in Frameworks */,
+				D7E4D18E182FA29E00764732 /* libzmq_la-thread.o in Frameworks */,
+				D7E4D18F182FA29E00764732 /* libzmq_la-trie.o in Frameworks */,
+				D7E4D190182FA29E00764732 /* libzmq_la-v1_decoder.o in Frameworks */,
+				D7E4D191182FA29E00764732 /* libzmq_la-v1_encoder.o in Frameworks */,
+				D7E4D192182FA29E00764732 /* libzmq_la-v2_decoder.o in Frameworks */,
+				D7E4D193182FA29E00764732 /* libzmq_la-v2_encoder.o in Frameworks */,
+				D7E4D194182FA29E00764732 /* libzmq_la-xpub.o in Frameworks */,
+				D7E4D195182FA29E00764732 /* libzmq_la-xsub.o in Frameworks */,
+				D7E4D196182FA29E00764732 /* libzmq_la-zmq.o in Frameworks */,
+				D7E4D197182FA29E00764732 /* libzmq_la-zmq_utils.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +550,7 @@
 		D7C75F8017E5BFF00018AB91 = {
 			isa = PBXGroup;
 			children = (
-				D7C7614F17E5C3B70018AB91 /* include */,
-				D7C7608517E5C3AA0018AB91 /* src */,
+				D7E4D067182FA28400764732 /* zeromq-4.0.1 */,
 				D7C75F8E17E5BFF00018AB91 /* ZeroMQ-Framework */,
 				D7C75FA317E5BFF00018AB91 /* ZeroMQ-FrameworkTests */,
 				D7C75F8B17E5BFF00018AB91 /* Frameworks */,
@@ -375,159 +613,267 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D7C7608517E5C3AA0018AB91 /* src */ = {
+		D7E4D067182FA28400764732 /* zeromq-4.0.1 */ = {
 			isa = PBXGroup;
 			children = (
-				D7C7608617E5C3AA0018AB91 /* address.cpp */,
-				D7C7608717E5C3AA0018AB91 /* address.hpp */,
-				D7C7608817E5C3AA0018AB91 /* array.hpp */,
-				D7C7608917E5C3AA0018AB91 /* atomic_counter.hpp */,
-				D7C7608A17E5C3AA0018AB91 /* atomic_ptr.hpp */,
-				D7C7608B17E5C3AA0018AB91 /* blob.hpp */,
-				D7C7608C17E5C3AA0018AB91 /* clock.cpp */,
-				D7C7608D17E5C3AA0018AB91 /* clock.hpp */,
-				D7C7608E17E5C3AA0018AB91 /* command.hpp */,
-				D7C7608F17E5C3AA0018AB91 /* config.hpp */,
-				D7C7609017E5C3AA0018AB91 /* ctx.cpp */,
-				D7C7609117E5C3AA0018AB91 /* ctx.hpp */,
-				D7C7609217E5C3AA0018AB91 /* dealer.cpp */,
-				D7C7609317E5C3AA0018AB91 /* dealer.hpp */,
-				D7C7609417E5C3AA0018AB91 /* decoder.cpp */,
-				D7C7609517E5C3AA0018AB91 /* decoder.hpp */,
-				D7C7609617E5C3AA0018AB91 /* devpoll.cpp */,
-				D7C7609717E5C3AA0018AB91 /* devpoll.hpp */,
-				D7C7609817E5C3AA0018AB91 /* dist.cpp */,
-				D7C7609917E5C3AA0018AB91 /* dist.hpp */,
-				D7C7609A17E5C3AA0018AB91 /* encoder.cpp */,
-				D7C7609B17E5C3AA0018AB91 /* encoder.hpp */,
-				D7C7609C17E5C3AA0018AB91 /* epoll.cpp */,
-				D7C7609D17E5C3AA0018AB91 /* epoll.hpp */,
-				D7C7609E17E5C3AA0018AB91 /* err.cpp */,
-				D7C7609F17E5C3AA0018AB91 /* err.hpp */,
-				D7C760A017E5C3AA0018AB91 /* fd.hpp */,
-				D7C760A117E5C3AA0018AB91 /* fq.cpp */,
-				D7C760A217E5C3AA0018AB91 /* fq.hpp */,
-				D7C760A317E5C3AA0018AB91 /* i_decoder.hpp */,
-				D7C760A417E5C3AA0018AB91 /* i_encoder.hpp */,
-				D7C760A517E5C3AA0018AB91 /* i_engine.hpp */,
-				D7C760A617E5C3AA0018AB91 /* i_msg_sink.hpp */,
-				D7C760A717E5C3AA0018AB91 /* i_msg_source.hpp */,
-				D7C760A817E5C3AA0018AB91 /* i_poll_events.hpp */,
-				D7C760A917E5C3AA0018AB91 /* io_object.cpp */,
-				D7C760AA17E5C3AA0018AB91 /* io_object.hpp */,
-				D7C760AB17E5C3AA0018AB91 /* io_thread.cpp */,
-				D7C760AC17E5C3AA0018AB91 /* io_thread.hpp */,
-				D7C760AD17E5C3AA0018AB91 /* ip.cpp */,
-				D7C760AE17E5C3AA0018AB91 /* ip.hpp */,
-				D7C760AF17E5C3AA0018AB91 /* ipc_address.cpp */,
-				D7C760B017E5C3AA0018AB91 /* ipc_address.hpp */,
-				D7C760B117E5C3AA0018AB91 /* ipc_connecter.cpp */,
-				D7C760B217E5C3AA0018AB91 /* ipc_connecter.hpp */,
-				D7C760B317E5C3AA0018AB91 /* ipc_listener.cpp */,
-				D7C760B417E5C3AA0018AB91 /* ipc_listener.hpp */,
-				D7C760B517E5C3AA0018AB91 /* kqueue.cpp */,
-				D7C760B617E5C3AA0018AB91 /* kqueue.hpp */,
-				D7C760B717E5C3AA0018AB91 /* lb.cpp */,
-				D7C760B817E5C3AA0018AB91 /* lb.hpp */,
-				D7C760B917E5C3AA0018AB91 /* likely.hpp */,
-				D7C760BA17E5C3AA0018AB91 /* mailbox.cpp */,
-				D7C760BB17E5C3AA0018AB91 /* mailbox.hpp */,
-				D7C760BC17E5C3AA0018AB91 /* msg.cpp */,
-				D7C760BD17E5C3AA0018AB91 /* msg.hpp */,
-				D7C760BE17E5C3AA0018AB91 /* mtrie.cpp */,
-				D7C760BF17E5C3AA0018AB91 /* mtrie.hpp */,
-				D7C760C017E5C3AA0018AB91 /* mutex.hpp */,
-				D7C760C117E5C3AA0018AB91 /* object.cpp */,
-				D7C760C217E5C3AA0018AB91 /* object.hpp */,
-				D7C760C317E5C3AA0018AB91 /* options.cpp */,
-				D7C760C417E5C3AA0018AB91 /* options.hpp */,
-				D7C760C517E5C3AA0018AB91 /* own.cpp */,
-				D7C760C617E5C3AA0018AB91 /* own.hpp */,
-				D7C760C717E5C3AA0018AB91 /* pair.cpp */,
-				D7C760C817E5C3AA0018AB91 /* pair.hpp */,
-				D7C760C917E5C3AA0018AB91 /* pgm_receiver.cpp */,
-				D7C760CA17E5C3AA0018AB91 /* pgm_receiver.hpp */,
-				D7C760CB17E5C3AA0018AB91 /* pgm_sender.cpp */,
-				D7C760CC17E5C3AA0018AB91 /* pgm_sender.hpp */,
-				D7C760CD17E5C3AA0018AB91 /* pgm_socket.cpp */,
-				D7C760CE17E5C3AA0018AB91 /* pgm_socket.hpp */,
-				D7C760CF17E5C3AA0018AB91 /* pipe.cpp */,
-				D7C760D017E5C3AA0018AB91 /* pipe.hpp */,
-				D7C760D117E5C3AA0018AB91 /* platform.hpp */,
-				D7C760D217E5C3AA0018AB91 /* poll.cpp */,
-				D7C760D317E5C3AA0018AB91 /* poll.hpp */,
-				D7C760D417E5C3AA0018AB91 /* poller.hpp */,
-				D7C760D517E5C3AA0018AB91 /* poller_base.cpp */,
-				D7C760D617E5C3AA0018AB91 /* poller_base.hpp */,
-				D7C760D717E5C3AA0018AB91 /* precompiled.cpp */,
-				D7C760D817E5C3AA0018AB91 /* precompiled.hpp */,
-				D7C760D917E5C3AA0018AB91 /* proxy.cpp */,
-				D7C760DA17E5C3AA0018AB91 /* proxy.hpp */,
-				D7C760DB17E5C3AA0018AB91 /* pub.cpp */,
-				D7C760DC17E5C3AA0018AB91 /* pub.hpp */,
-				D7C760DD17E5C3AA0018AB91 /* pull.cpp */,
-				D7C760DE17E5C3AA0018AB91 /* pull.hpp */,
-				D7C760DF17E5C3AA0018AB91 /* push.cpp */,
-				D7C760E017E5C3AA0018AB91 /* push.hpp */,
-				D7C760E117E5C3AA0018AB91 /* random.cpp */,
-				D7C760E217E5C3AA0018AB91 /* random.hpp */,
-				D7C760E317E5C3AA0018AB91 /* reaper.cpp */,
-				D7C760E417E5C3AA0018AB91 /* reaper.hpp */,
-				D7C760E517E5C3AA0018AB91 /* rep.cpp */,
-				D7C760E617E5C3AA0018AB91 /* rep.hpp */,
-				D7C760E717E5C3AA0018AB91 /* req.cpp */,
-				D7C760E817E5C3AA0018AB91 /* req.hpp */,
-				D7C760E917E5C3AA0018AB91 /* router.cpp */,
-				D7C760EA17E5C3AA0018AB91 /* router.hpp */,
-				D7C760EB17E5C3AA0018AB91 /* select.cpp */,
-				D7C760EC17E5C3AA0018AB91 /* select.hpp */,
-				D7C760ED17E5C3AA0018AB91 /* session_base.cpp */,
-				D7C760EE17E5C3AA0018AB91 /* session_base.hpp */,
-				D7C760EF17E5C3AA0018AB91 /* signaler.cpp */,
-				D7C760F017E5C3AA0018AB91 /* signaler.hpp */,
-				D7C760F117E5C3AA0018AB91 /* socket_base.cpp */,
-				D7C760F217E5C3AA0018AB91 /* socket_base.hpp */,
-				D7C760F317E5C3AA0018AB91 /* stdint.hpp */,
-				D7C760F417E5C3AA0018AB91 /* stream_engine.cpp */,
-				D7C760F517E5C3AA0018AB91 /* stream_engine.hpp */,
-				D7C760F617E5C3AA0018AB91 /* sub.cpp */,
-				D7C760F717E5C3AA0018AB91 /* sub.hpp */,
-				D7C760F817E5C3AA0018AB91 /* tcp.cpp */,
-				D7C760F917E5C3AA0018AB91 /* tcp.hpp */,
-				D7C760FA17E5C3AA0018AB91 /* tcp_address.cpp */,
-				D7C760FB17E5C3AA0018AB91 /* tcp_address.hpp */,
-				D7C760FC17E5C3AA0018AB91 /* tcp_connecter.cpp */,
-				D7C760FD17E5C3AA0018AB91 /* tcp_connecter.hpp */,
-				D7C760FE17E5C3AA0018AB91 /* tcp_listener.cpp */,
-				D7C760FF17E5C3AA0018AB91 /* tcp_listener.hpp */,
-				D7C7610017E5C3AA0018AB91 /* thread.cpp */,
-				D7C7610117E5C3AA0018AB91 /* thread.hpp */,
-				D7C7610217E5C3AA0018AB91 /* trie.cpp */,
-				D7C7610317E5C3AA0018AB91 /* trie.hpp */,
-				D7C7610417E5C3AA0018AB91 /* v1_decoder.cpp */,
-				D7C7610517E5C3AA0018AB91 /* v1_decoder.hpp */,
-				D7C7610617E5C3AA0018AB91 /* v1_encoder.cpp */,
-				D7C7610717E5C3AA0018AB91 /* v1_encoder.hpp */,
-				D7C7610817E5C3AA0018AB91 /* v1_protocol.hpp */,
-				D7C7610917E5C3AA0018AB91 /* windows.hpp */,
-				D7C7610A17E5C3AA0018AB91 /* wire.hpp */,
-				D7C7610B17E5C3AA0018AB91 /* xpub.cpp */,
-				D7C7610C17E5C3AA0018AB91 /* xpub.hpp */,
-				D7C7610D17E5C3AA0018AB91 /* xsub.cpp */,
-				D7C7610E17E5C3AA0018AB91 /* xsub.hpp */,
-				D7C7610F17E5C3AA0018AB91 /* ypipe.hpp */,
-				D7C7611017E5C3AA0018AB91 /* yqueue.hpp */,
-				D7C7611117E5C3AA0018AB91 /* zmq.cpp */,
-				D7C7611217E5C3AA0018AB91 /* zmq_utils.cpp */,
+				D7E4D1DC182FA2A800764732 /* include */,
+				D7E4D068182FA29E00764732 /* src */,
+			);
+			path = "zeromq-4.0.1";
+			sourceTree = "<group>";
+		};
+		D7E4D068182FA29E00764732 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D7E4D069182FA29E00764732 /* .libs */,
+				D7E4D0B2182FA29E00764732 /* address.cpp */,
+				D7E4D0B3182FA29E00764732 /* address.hpp */,
+				D7E4D0B4182FA29E00764732 /* array.hpp */,
+				D7E4D0B5182FA29E00764732 /* atomic_counter.hpp */,
+				D7E4D0B6182FA29E00764732 /* atomic_ptr.hpp */,
+				D7E4D0B7182FA29E00764732 /* blob.hpp */,
+				D7E4D0B8182FA29E00764732 /* clock.cpp */,
+				D7E4D0B9182FA29E00764732 /* clock.hpp */,
+				D7E4D0BA182FA29E00764732 /* command.hpp */,
+				D7E4D0BB182FA29E00764732 /* config.hpp */,
+				D7E4D0BC182FA29E00764732 /* ctx.cpp */,
+				D7E4D0BD182FA29E00764732 /* ctx.hpp */,
+				D7E4D0BE182FA29E00764732 /* curve_client.cpp */,
+				D7E4D0BF182FA29E00764732 /* curve_client.hpp */,
+				D7E4D0C0182FA29E00764732 /* curve_server.cpp */,
+				D7E4D0C1182FA29E00764732 /* curve_server.hpp */,
+				D7E4D0C2182FA29E00764732 /* dbuffer.hpp */,
+				D7E4D0C3182FA29E00764732 /* dealer.cpp */,
+				D7E4D0C4182FA29E00764732 /* dealer.hpp */,
+				D7E4D0C5182FA29E00764732 /* decoder.hpp */,
+				D7E4D0C6182FA29E00764732 /* devpoll.cpp */,
+				D7E4D0C7182FA29E00764732 /* devpoll.hpp */,
+				D7E4D0C8182FA29E00764732 /* dist.cpp */,
+				D7E4D0C9182FA29E00764732 /* dist.hpp */,
+				D7E4D0CA182FA29E00764732 /* encoder.hpp */,
+				D7E4D0CB182FA29E00764732 /* epoll.cpp */,
+				D7E4D0CC182FA29E00764732 /* epoll.hpp */,
+				D7E4D0CD182FA29E00764732 /* err.cpp */,
+				D7E4D0CE182FA29E00764732 /* err.hpp */,
+				D7E4D0CF182FA29E00764732 /* fd.hpp */,
+				D7E4D0D0182FA29E00764732 /* fq.cpp */,
+				D7E4D0D1182FA29E00764732 /* fq.hpp */,
+				D7E4D0D2182FA29E00764732 /* i_decoder.hpp */,
+				D7E4D0D3182FA29E00764732 /* i_encoder.hpp */,
+				D7E4D0D4182FA29E00764732 /* i_engine.hpp */,
+				D7E4D0D5182FA29E00764732 /* i_poll_events.hpp */,
+				D7E4D0D6182FA29E00764732 /* io_object.cpp */,
+				D7E4D0D7182FA29E00764732 /* io_object.hpp */,
+				D7E4D0D8182FA29E00764732 /* io_thread.cpp */,
+				D7E4D0D9182FA29E00764732 /* io_thread.hpp */,
+				D7E4D0DA182FA29E00764732 /* ip.cpp */,
+				D7E4D0DB182FA29E00764732 /* ip.hpp */,
+				D7E4D0DC182FA29E00764732 /* ipc_address.cpp */,
+				D7E4D0DD182FA29E00764732 /* ipc_address.hpp */,
+				D7E4D0DE182FA29E00764732 /* ipc_connecter.cpp */,
+				D7E4D0DF182FA29E00764732 /* ipc_connecter.hpp */,
+				D7E4D0E0182FA29E00764732 /* ipc_listener.cpp */,
+				D7E4D0E1182FA29E00764732 /* ipc_listener.hpp */,
+				D7E4D0E2182FA29E00764732 /* kqueue.cpp */,
+				D7E4D0E3182FA29E00764732 /* kqueue.hpp */,
+				D7E4D0E4182FA29E00764732 /* lb.cpp */,
+				D7E4D0E5182FA29E00764732 /* lb.hpp */,
+				D7E4D0E6182FA29E00764732 /* likely.hpp */,
+				D7E4D0E7182FA29E00764732 /* mailbox.cpp */,
+				D7E4D0E8182FA29E00764732 /* mailbox.hpp */,
+				D7E4D0E9182FA29E00764732 /* mechanism.cpp */,
+				D7E4D0EA182FA29E00764732 /* mechanism.hpp */,
+				D7E4D0EB182FA29E00764732 /* msg.cpp */,
+				D7E4D0EC182FA29E00764732 /* msg.hpp */,
+				D7E4D0ED182FA29E00764732 /* mtrie.cpp */,
+				D7E4D0EE182FA29E00764732 /* mtrie.hpp */,
+				D7E4D0EF182FA29E00764732 /* mutex.hpp */,
+				D7E4D0F0182FA29E00764732 /* null_mechanism.cpp */,
+				D7E4D0F1182FA29E00764732 /* null_mechanism.hpp */,
+				D7E4D0F2182FA29E00764732 /* object.cpp */,
+				D7E4D0F3182FA29E00764732 /* object.hpp */,
+				D7E4D0F4182FA29E00764732 /* options.cpp */,
+				D7E4D0F5182FA29E00764732 /* options.hpp */,
+				D7E4D0F6182FA29E00764732 /* own.cpp */,
+				D7E4D0F7182FA29E00764732 /* own.hpp */,
+				D7E4D0F8182FA29E00764732 /* pair.cpp */,
+				D7E4D0F9182FA29E00764732 /* pair.hpp */,
+				D7E4D0FA182FA29E00764732 /* pgm_receiver.cpp */,
+				D7E4D0FB182FA29E00764732 /* pgm_receiver.hpp */,
+				D7E4D0FC182FA29E00764732 /* pgm_sender.cpp */,
+				D7E4D0FD182FA29E00764732 /* pgm_sender.hpp */,
+				D7E4D0FE182FA29E00764732 /* pgm_socket.cpp */,
+				D7E4D0FF182FA29E00764732 /* pgm_socket.hpp */,
+				D7E4D100182FA29E00764732 /* pipe.cpp */,
+				D7E4D101182FA29E00764732 /* pipe.hpp */,
+				D7E4D102182FA29E00764732 /* plain_mechanism.cpp */,
+				D7E4D103182FA29E00764732 /* plain_mechanism.hpp */,
+				D7E4D104182FA29E00764732 /* platform.hpp */,
+				D7E4D105182FA29E00764732 /* poll.cpp */,
+				D7E4D106182FA29E00764732 /* poll.hpp */,
+				D7E4D107182FA29E00764732 /* poller.hpp */,
+				D7E4D108182FA29E00764732 /* poller_base.cpp */,
+				D7E4D109182FA29E00764732 /* poller_base.hpp */,
+				D7E4D10A182FA29E00764732 /* precompiled.cpp */,
+				D7E4D10B182FA29E00764732 /* precompiled.hpp */,
+				D7E4D10C182FA29E00764732 /* proxy.cpp */,
+				D7E4D10D182FA29E00764732 /* proxy.hpp */,
+				D7E4D10E182FA29E00764732 /* pub.cpp */,
+				D7E4D10F182FA29E00764732 /* pub.hpp */,
+				D7E4D110182FA29E00764732 /* pull.cpp */,
+				D7E4D111182FA29E00764732 /* pull.hpp */,
+				D7E4D112182FA29E00764732 /* push.cpp */,
+				D7E4D113182FA29E00764732 /* push.hpp */,
+				D7E4D114182FA29E00764732 /* random.cpp */,
+				D7E4D115182FA29E00764732 /* random.hpp */,
+				D7E4D116182FA29E00764732 /* raw_decoder.cpp */,
+				D7E4D117182FA29E00764732 /* raw_decoder.hpp */,
+				D7E4D118182FA29E00764732 /* raw_encoder.cpp */,
+				D7E4D119182FA29E00764732 /* raw_encoder.hpp */,
+				D7E4D11A182FA29E00764732 /* reaper.cpp */,
+				D7E4D11B182FA29E00764732 /* reaper.hpp */,
+				D7E4D11C182FA29E00764732 /* rep.cpp */,
+				D7E4D11D182FA29E00764732 /* rep.hpp */,
+				D7E4D11E182FA29E00764732 /* req.cpp */,
+				D7E4D11F182FA29E00764732 /* req.hpp */,
+				D7E4D120182FA29E00764732 /* router.cpp */,
+				D7E4D121182FA29E00764732 /* router.hpp */,
+				D7E4D122182FA29E00764732 /* select.cpp */,
+				D7E4D123182FA29E00764732 /* select.hpp */,
+				D7E4D124182FA29E00764732 /* session_base.cpp */,
+				D7E4D125182FA29E00764732 /* session_base.hpp */,
+				D7E4D126182FA29E00764732 /* signaler.cpp */,
+				D7E4D127182FA29E00764732 /* signaler.hpp */,
+				D7E4D128182FA29E00764732 /* socket_base.cpp */,
+				D7E4D129182FA29E00764732 /* socket_base.hpp */,
+				D7E4D12A182FA29E00764732 /* stdint.hpp */,
+				D7E4D12B182FA29E00764732 /* stream.cpp */,
+				D7E4D12C182FA29E00764732 /* stream.hpp */,
+				D7E4D12D182FA29E00764732 /* stream_engine.cpp */,
+				D7E4D12E182FA29E00764732 /* stream_engine.hpp */,
+				D7E4D12F182FA29E00764732 /* sub.cpp */,
+				D7E4D130182FA29E00764732 /* sub.hpp */,
+				D7E4D131182FA29E00764732 /* tcp.cpp */,
+				D7E4D132182FA29E00764732 /* tcp.hpp */,
+				D7E4D133182FA29E00764732 /* tcp_address.cpp */,
+				D7E4D134182FA29E00764732 /* tcp_address.hpp */,
+				D7E4D135182FA29E00764732 /* tcp_connecter.cpp */,
+				D7E4D136182FA29E00764732 /* tcp_connecter.hpp */,
+				D7E4D137182FA29E00764732 /* tcp_listener.cpp */,
+				D7E4D138182FA29E00764732 /* tcp_listener.hpp */,
+				D7E4D139182FA29E00764732 /* thread.cpp */,
+				D7E4D13A182FA29E00764732 /* thread.hpp */,
+				D7E4D13B182FA29E00764732 /* trie.cpp */,
+				D7E4D13C182FA29E00764732 /* trie.hpp */,
+				D7E4D13D182FA29E00764732 /* v1_decoder.cpp */,
+				D7E4D13E182FA29E00764732 /* v1_decoder.hpp */,
+				D7E4D13F182FA29E00764732 /* v1_encoder.cpp */,
+				D7E4D140182FA29E00764732 /* v1_encoder.hpp */,
+				D7E4D141182FA29E00764732 /* v2_decoder.cpp */,
+				D7E4D142182FA29E00764732 /* v2_decoder.hpp */,
+				D7E4D143182FA29E00764732 /* v2_encoder.cpp */,
+				D7E4D144182FA29E00764732 /* v2_encoder.hpp */,
+				D7E4D145182FA29E00764732 /* v2_protocol.hpp */,
+				D7E4D146182FA29E00764732 /* windows.hpp */,
+				D7E4D147182FA29E00764732 /* wire.hpp */,
+				D7E4D148182FA29E00764732 /* xpub.cpp */,
+				D7E4D149182FA29E00764732 /* xpub.hpp */,
+				D7E4D14A182FA29E00764732 /* xsub.cpp */,
+				D7E4D14B182FA29E00764732 /* xsub.hpp */,
+				D7E4D14C182FA29E00764732 /* ypipe.hpp */,
+				D7E4D14D182FA29E00764732 /* ypipe_base.hpp */,
+				D7E4D14E182FA29E00764732 /* ypipe_conflate.hpp */,
+				D7E4D14F182FA29E00764732 /* yqueue.hpp */,
+				D7E4D150182FA29E00764732 /* zmq.cpp */,
+				D7E4D151182FA29E00764732 /* zmq_utils.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		D7C7614F17E5C3B70018AB91 /* include */ = {
+		D7E4D069182FA29E00764732 /* .libs */ = {
 			isa = PBXGroup;
 			children = (
-				D7C7615017E5C3B70018AB91 /* zmq.h */,
-				D7C7615117E5C3B70018AB91 /* zmq_utils.h */,
+				D7E4D06A182FA29E00764732 /* libzmq.3.dylib */,
+				D7E4D06B182FA29E00764732 /* libzmq.a */,
+				D7E4D06C182FA29E00764732 /* libzmq.dylib */,
+				D7E4D06D182FA29E00764732 /* libzmq.la */,
+				D7E4D06E182FA29E00764732 /* libzmq.lai */,
+				D7E4D06F182FA29E00764732 /* libzmq_la-address.o */,
+				D7E4D070182FA29E00764732 /* libzmq_la-clock.o */,
+				D7E4D071182FA29E00764732 /* libzmq_la-ctx.o */,
+				D7E4D072182FA29E00764732 /* libzmq_la-curve_client.o */,
+				D7E4D073182FA29E00764732 /* libzmq_la-curve_server.o */,
+				D7E4D074182FA29E00764732 /* libzmq_la-dealer.o */,
+				D7E4D075182FA29E00764732 /* libzmq_la-devpoll.o */,
+				D7E4D076182FA29E00764732 /* libzmq_la-dist.o */,
+				D7E4D077182FA29E00764732 /* libzmq_la-epoll.o */,
+				D7E4D078182FA29E00764732 /* libzmq_la-err.o */,
+				D7E4D079182FA29E00764732 /* libzmq_la-fq.o */,
+				D7E4D07A182FA29E00764732 /* libzmq_la-io_object.o */,
+				D7E4D07B182FA29E00764732 /* libzmq_la-io_thread.o */,
+				D7E4D07C182FA29E00764732 /* libzmq_la-ip.o */,
+				D7E4D07D182FA29E00764732 /* libzmq_la-ipc_address.o */,
+				D7E4D07E182FA29E00764732 /* libzmq_la-ipc_connecter.o */,
+				D7E4D07F182FA29E00764732 /* libzmq_la-ipc_listener.o */,
+				D7E4D080182FA29E00764732 /* libzmq_la-kqueue.o */,
+				D7E4D081182FA29E00764732 /* libzmq_la-lb.o */,
+				D7E4D082182FA29E00764732 /* libzmq_la-mailbox.o */,
+				D7E4D083182FA29E00764732 /* libzmq_la-mechanism.o */,
+				D7E4D084182FA29E00764732 /* libzmq_la-msg.o */,
+				D7E4D085182FA29E00764732 /* libzmq_la-mtrie.o */,
+				D7E4D086182FA29E00764732 /* libzmq_la-null_mechanism.o */,
+				D7E4D087182FA29E00764732 /* libzmq_la-object.o */,
+				D7E4D088182FA29E00764732 /* libzmq_la-options.o */,
+				D7E4D089182FA29E00764732 /* libzmq_la-own.o */,
+				D7E4D08A182FA29E00764732 /* libzmq_la-pair.o */,
+				D7E4D08B182FA29E00764732 /* libzmq_la-pgm_receiver.o */,
+				D7E4D08C182FA29E00764732 /* libzmq_la-pgm_sender.o */,
+				D7E4D08D182FA29E00764732 /* libzmq_la-pgm_socket.o */,
+				D7E4D08E182FA29E00764732 /* libzmq_la-pipe.o */,
+				D7E4D08F182FA29E00764732 /* libzmq_la-plain_mechanism.o */,
+				D7E4D090182FA29E00764732 /* libzmq_la-poll.o */,
+				D7E4D091182FA29E00764732 /* libzmq_la-poller_base.o */,
+				D7E4D092182FA29E00764732 /* libzmq_la-proxy.o */,
+				D7E4D093182FA29E00764732 /* libzmq_la-pub.o */,
+				D7E4D094182FA29E00764732 /* libzmq_la-pull.o */,
+				D7E4D095182FA29E00764732 /* libzmq_la-push.o */,
+				D7E4D096182FA29E00764732 /* libzmq_la-random.o */,
+				D7E4D097182FA29E00764732 /* libzmq_la-raw_decoder.o */,
+				D7E4D098182FA29E00764732 /* libzmq_la-raw_encoder.o */,
+				D7E4D099182FA29E00764732 /* libzmq_la-reaper.o */,
+				D7E4D09A182FA29E00764732 /* libzmq_la-rep.o */,
+				D7E4D09B182FA29E00764732 /* libzmq_la-req.o */,
+				D7E4D09C182FA29E00764732 /* libzmq_la-router.o */,
+				D7E4D09D182FA29E00764732 /* libzmq_la-select.o */,
+				D7E4D09E182FA29E00764732 /* libzmq_la-session_base.o */,
+				D7E4D09F182FA29E00764732 /* libzmq_la-signaler.o */,
+				D7E4D0A0182FA29E00764732 /* libzmq_la-socket_base.o */,
+				D7E4D0A1182FA29E00764732 /* libzmq_la-stream.o */,
+				D7E4D0A2182FA29E00764732 /* libzmq_la-stream_engine.o */,
+				D7E4D0A3182FA29E00764732 /* libzmq_la-sub.o */,
+				D7E4D0A4182FA29E00764732 /* libzmq_la-tcp.o */,
+				D7E4D0A5182FA29E00764732 /* libzmq_la-tcp_address.o */,
+				D7E4D0A6182FA29E00764732 /* libzmq_la-tcp_connecter.o */,
+				D7E4D0A7182FA29E00764732 /* libzmq_la-tcp_listener.o */,
+				D7E4D0A8182FA29E00764732 /* libzmq_la-thread.o */,
+				D7E4D0A9182FA29E00764732 /* libzmq_la-trie.o */,
+				D7E4D0AA182FA29E00764732 /* libzmq_la-v1_decoder.o */,
+				D7E4D0AB182FA29E00764732 /* libzmq_la-v1_encoder.o */,
+				D7E4D0AC182FA29E00764732 /* libzmq_la-v2_decoder.o */,
+				D7E4D0AD182FA29E00764732 /* libzmq_la-v2_encoder.o */,
+				D7E4D0AE182FA29E00764732 /* libzmq_la-xpub.o */,
+				D7E4D0AF182FA29E00764732 /* libzmq_la-xsub.o */,
+				D7E4D0B0182FA29E00764732 /* libzmq_la-zmq.o */,
+				D7E4D0B1182FA29E00764732 /* libzmq_la-zmq_utils.o */,
+			);
+			path = .libs;
+			sourceTree = "<group>";
+		};
+		D7E4D1DC182FA2A800764732 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D7E4D1DD182FA2A800764732 /* zmq.h */,
+				D7E4D1DE182FA2A800764732 /* zmq_utils.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -660,66 +1006,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C75F9417E5BFF00018AB91 /* ZeroMQ_Framework.m in Sources */,
-				D7C7611317E5C3AA0018AB91 /* address.cpp in Sources */,
-				D7C7611417E5C3AA0018AB91 /* clock.cpp in Sources */,
-				D7C7611517E5C3AA0018AB91 /* ctx.cpp in Sources */,
-				D7C7611617E5C3AA0018AB91 /* dealer.cpp in Sources */,
-				D7C7611717E5C3AA0018AB91 /* decoder.cpp in Sources */,
-				D7C7611817E5C3AA0018AB91 /* devpoll.cpp in Sources */,
-				D7C7611917E5C3AA0018AB91 /* dist.cpp in Sources */,
-				D7C7611A17E5C3AA0018AB91 /* encoder.cpp in Sources */,
-				D7C7611B17E5C3AA0018AB91 /* epoll.cpp in Sources */,
-				D7C7611C17E5C3AA0018AB91 /* err.cpp in Sources */,
-				D7C7611D17E5C3AA0018AB91 /* fq.cpp in Sources */,
-				D7C7611E17E5C3AA0018AB91 /* io_object.cpp in Sources */,
-				D7C7611F17E5C3AA0018AB91 /* io_thread.cpp in Sources */,
-				D7C7612017E5C3AA0018AB91 /* ip.cpp in Sources */,
-				D7C7612117E5C3AA0018AB91 /* ipc_address.cpp in Sources */,
-				D7C7612217E5C3AA0018AB91 /* ipc_connecter.cpp in Sources */,
-				D7C7612317E5C3AA0018AB91 /* ipc_listener.cpp in Sources */,
-				D7C7612417E5C3AA0018AB91 /* kqueue.cpp in Sources */,
-				D7C7612517E5C3AA0018AB91 /* lb.cpp in Sources */,
-				D7C7612617E5C3AA0018AB91 /* mailbox.cpp in Sources */,
-				D7C7612717E5C3AA0018AB91 /* msg.cpp in Sources */,
-				D7C7612817E5C3AA0018AB91 /* mtrie.cpp in Sources */,
-				D7C7612917E5C3AA0018AB91 /* object.cpp in Sources */,
-				D7C7612A17E5C3AA0018AB91 /* options.cpp in Sources */,
-				D7C7612B17E5C3AA0018AB91 /* own.cpp in Sources */,
-				D7C7612C17E5C3AA0018AB91 /* pair.cpp in Sources */,
-				D7C7612D17E5C3AA0018AB91 /* pgm_receiver.cpp in Sources */,
-				D7C7612E17E5C3AA0018AB91 /* pgm_sender.cpp in Sources */,
-				D7C7612F17E5C3AA0018AB91 /* pgm_socket.cpp in Sources */,
-				D7C7613017E5C3AA0018AB91 /* pipe.cpp in Sources */,
-				D7C7613117E5C3AA0018AB91 /* poll.cpp in Sources */,
-				D7C7613217E5C3AA0018AB91 /* poller_base.cpp in Sources */,
-				D7C7613317E5C3AA0018AB91 /* precompiled.cpp in Sources */,
-				D7C7613417E5C3AA0018AB91 /* proxy.cpp in Sources */,
-				D7C7613517E5C3AA0018AB91 /* pub.cpp in Sources */,
-				D7C7613617E5C3AA0018AB91 /* pull.cpp in Sources */,
-				D7C7613717E5C3AA0018AB91 /* push.cpp in Sources */,
-				D7C7613817E5C3AA0018AB91 /* random.cpp in Sources */,
-				D7C7613917E5C3AA0018AB91 /* reaper.cpp in Sources */,
-				D7C7613A17E5C3AA0018AB91 /* rep.cpp in Sources */,
-				D7C7613B17E5C3AA0018AB91 /* req.cpp in Sources */,
-				D7C7613C17E5C3AA0018AB91 /* router.cpp in Sources */,
-				D7C7613D17E5C3AA0018AB91 /* select.cpp in Sources */,
-				D7C7613E17E5C3AA0018AB91 /* session_base.cpp in Sources */,
-				D7C7613F17E5C3AA0018AB91 /* signaler.cpp in Sources */,
-				D7C7614017E5C3AA0018AB91 /* socket_base.cpp in Sources */,
-				D7C7614117E5C3AA0018AB91 /* stream_engine.cpp in Sources */,
-				D7C7614217E5C3AA0018AB91 /* sub.cpp in Sources */,
-				D7C7614317E5C3AA0018AB91 /* tcp.cpp in Sources */,
-				D7C7614417E5C3AA0018AB91 /* tcp_address.cpp in Sources */,
-				D7C7614517E5C3AA0018AB91 /* tcp_connecter.cpp in Sources */,
-				D7C7614617E5C3AA0018AB91 /* tcp_listener.cpp in Sources */,
-				D7C7614717E5C3AA0018AB91 /* thread.cpp in Sources */,
-				D7C7614817E5C3AA0018AB91 /* trie.cpp in Sources */,
-				D7C7614917E5C3AA0018AB91 /* v1_decoder.cpp in Sources */,
-				D7C7614A17E5C3AA0018AB91 /* v1_encoder.cpp in Sources */,
-				D7C7614B17E5C3AA0018AB91 /* xpub.cpp in Sources */,
-				D7C7614C17E5C3AA0018AB91 /* xsub.cpp in Sources */,
-				D7C7614D17E5C3AA0018AB91 /* zmq.cpp in Sources */,
-				D7C7614E17E5C3AA0018AB91 /* zmq_utils.cpp in Sources */,
+				D7E4D198182FA29E00764732 /* address.cpp in Sources */,
+				D7E4D199182FA29E00764732 /* clock.cpp in Sources */,
+				D7E4D19A182FA29E00764732 /* ctx.cpp in Sources */,
+				D7E4D19B182FA29E00764732 /* curve_client.cpp in Sources */,
+				D7E4D19C182FA29E00764732 /* curve_server.cpp in Sources */,
+				D7E4D19D182FA29E00764732 /* dealer.cpp in Sources */,
+				D7E4D19E182FA29E00764732 /* devpoll.cpp in Sources */,
+				D7E4D19F182FA29E00764732 /* dist.cpp in Sources */,
+				D7E4D1A0182FA29E00764732 /* epoll.cpp in Sources */,
+				D7E4D1A1182FA29E00764732 /* err.cpp in Sources */,
+				D7E4D1A2182FA29E00764732 /* fq.cpp in Sources */,
+				D7E4D1A3182FA29E00764732 /* io_object.cpp in Sources */,
+				D7E4D1A4182FA29E00764732 /* io_thread.cpp in Sources */,
+				D7E4D1A5182FA29E00764732 /* ip.cpp in Sources */,
+				D7E4D1A6182FA29E00764732 /* ipc_address.cpp in Sources */,
+				D7E4D1A7182FA29E00764732 /* ipc_connecter.cpp in Sources */,
+				D7E4D1A8182FA29E00764732 /* ipc_listener.cpp in Sources */,
+				D7E4D1A9182FA29E00764732 /* kqueue.cpp in Sources */,
+				D7E4D1AA182FA29E00764732 /* lb.cpp in Sources */,
+				D7E4D1AB182FA29E00764732 /* mailbox.cpp in Sources */,
+				D7E4D1AC182FA29E00764732 /* mechanism.cpp in Sources */,
+				D7E4D1AD182FA29E00764732 /* msg.cpp in Sources */,
+				D7E4D1AE182FA29E00764732 /* mtrie.cpp in Sources */,
+				D7E4D1AF182FA29E00764732 /* null_mechanism.cpp in Sources */,
+				D7E4D1B0182FA29E00764732 /* object.cpp in Sources */,
+				D7E4D1B1182FA29E00764732 /* options.cpp in Sources */,
+				D7E4D1B2182FA29E00764732 /* own.cpp in Sources */,
+				D7E4D1B3182FA29E00764732 /* pair.cpp in Sources */,
+				D7E4D1B4182FA29E00764732 /* pgm_receiver.cpp in Sources */,
+				D7E4D1B5182FA29E00764732 /* pgm_sender.cpp in Sources */,
+				D7E4D1B6182FA29E00764732 /* pgm_socket.cpp in Sources */,
+				D7E4D1B7182FA29E00764732 /* pipe.cpp in Sources */,
+				D7E4D1B8182FA29E00764732 /* plain_mechanism.cpp in Sources */,
+				D7E4D1B9182FA29E00764732 /* poll.cpp in Sources */,
+				D7E4D1BA182FA29E00764732 /* poller_base.cpp in Sources */,
+				D7E4D1BB182FA29E00764732 /* precompiled.cpp in Sources */,
+				D7E4D1BC182FA29E00764732 /* proxy.cpp in Sources */,
+				D7E4D1BD182FA29E00764732 /* pub.cpp in Sources */,
+				D7E4D1BE182FA29E00764732 /* pull.cpp in Sources */,
+				D7E4D1BF182FA29E00764732 /* push.cpp in Sources */,
+				D7E4D1C0182FA29E00764732 /* random.cpp in Sources */,
+				D7E4D1C1182FA29E00764732 /* raw_decoder.cpp in Sources */,
+				D7E4D1C2182FA29E00764732 /* raw_encoder.cpp in Sources */,
+				D7E4D1C3182FA29E00764732 /* reaper.cpp in Sources */,
+				D7E4D1C4182FA29E00764732 /* rep.cpp in Sources */,
+				D7E4D1C5182FA29E00764732 /* req.cpp in Sources */,
+				D7E4D1C6182FA29E00764732 /* router.cpp in Sources */,
+				D7E4D1C7182FA29E00764732 /* select.cpp in Sources */,
+				D7E4D1C8182FA29E00764732 /* session_base.cpp in Sources */,
+				D7E4D1C9182FA29E00764732 /* signaler.cpp in Sources */,
+				D7E4D1CA182FA29E00764732 /* socket_base.cpp in Sources */,
+				D7E4D1CB182FA29E00764732 /* stream.cpp in Sources */,
+				D7E4D1CC182FA29E00764732 /* stream_engine.cpp in Sources */,
+				D7E4D1CD182FA29E00764732 /* sub.cpp in Sources */,
+				D7E4D1CE182FA29E00764732 /* tcp.cpp in Sources */,
+				D7E4D1CF182FA29E00764732 /* tcp_address.cpp in Sources */,
+				D7E4D1D0182FA29E00764732 /* tcp_connecter.cpp in Sources */,
+				D7E4D1D1182FA29E00764732 /* tcp_listener.cpp in Sources */,
+				D7E4D1D2182FA29E00764732 /* thread.cpp in Sources */,
+				D7E4D1D3182FA29E00764732 /* trie.cpp in Sources */,
+				D7E4D1D4182FA29E00764732 /* v1_decoder.cpp in Sources */,
+				D7E4D1D5182FA29E00764732 /* v1_encoder.cpp in Sources */,
+				D7E4D1D6182FA29E00764732 /* v2_decoder.cpp in Sources */,
+				D7E4D1D7182FA29E00764732 /* v2_encoder.cpp in Sources */,
+				D7E4D1D8182FA29E00764732 /* xpub.cpp in Sources */,
+				D7E4D1D9182FA29E00764732 /* xsub.cpp in Sources */,
+				D7E4D1DA182FA29E00764732 /* zmq.cpp in Sources */,
+				D7E4D1DB182FA29E00764732 /* zmq_utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,6 +1170,10 @@
 				DSTROOT = /tmp/ZeroMQ_Framework.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZeroMQ-Framework/ZeroMQ-Framework-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/zeromq-4.0.1/src/.libs\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -828,6 +1186,10 @@
 				DSTROOT = /tmp/ZeroMQ_Framework.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZeroMQ-Framework/ZeroMQ-Framework-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/zeromq-4.0.1/src/.libs\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

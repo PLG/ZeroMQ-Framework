@@ -8,11 +8,11 @@ This is the implementation of *Paolo Denti*'s and *Justin DeWind*'s ZeroMQ Unive
 I haven't done anything all that exciting; I followed directions and solved a discrepancy.<br/>
 All kudos go to the above authors.
 
-Compiled with: Xcode 4.6.3, for iOS 6.1 and zeromq-3.2.3 source files.
+Compiled with: Xcode 4.6.3, for iOS 6.1 and zeromq-4.0.1 source files.
 
 Usage of the Framework is Paolo's Step 5, but I ***do*** have an errata!
 
-## Write a iOS client using the new øMQ framework
+## Write a iOS client using the new ØMQ framework
 
 * just create a normal ios project
 * drag the `ZeroMQ-iOS.framework` folder in the `Frameworks` group (check the copy checkbox)

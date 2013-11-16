@@ -8,7 +8,8 @@ This is the implementation of *Paolo Denti*'s and *Justin DeWind*'s ZeroMQ Unive
 I haven't done anything all that exciting; I followed directions and solved a discrepancy.<br/>
 All kudos go to the above authors.
 
-Compiled with: Xcode 4.6.3, for iOS 6.1 and zeromq-4.0.1 source files.
+Compiled with: Xcode 5.0.2, for iOS 7.0 and zeromq-4.0.1 source files.
+NOTE: I have NOT tested the framework on device for iOS 7!
 
 Usage of the Framework is Paolo's Step 5, but I ***do*** have an errata!
 

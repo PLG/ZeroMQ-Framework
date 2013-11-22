@@ -31,76 +31,6 @@
 		D7C75FA217E5BFF00018AB91 /* libZeroMQ-Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C75F8917E5BFF00018AB91 /* libZeroMQ-Framework.a */; };
 		D7C75FA817E5BFF00018AB91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C75FA617E5BFF00018AB91 /* InfoPlist.strings */; };
 		D7C75FAB17E5BFF00018AB91 /* ZeroMQ_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C75FAA17E5BFF00018AB91 /* ZeroMQ_FrameworkTests.m */; };
-		D7E4D152182FA29E00764732 /* libzmq.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06A182FA29E00764732 /* libzmq.3.dylib */; };
-		D7E4D153182FA29E00764732 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06B182FA29E00764732 /* libzmq.a */; };
-		D7E4D154182FA29E00764732 /* libzmq.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06C182FA29E00764732 /* libzmq.dylib */; };
-		D7E4D155182FA29E00764732 /* libzmq_la-address.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D06F182FA29E00764732 /* libzmq_la-address.o */; };
-		D7E4D156182FA29E00764732 /* libzmq_la-clock.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D070182FA29E00764732 /* libzmq_la-clock.o */; };
-		D7E4D157182FA29E00764732 /* libzmq_la-ctx.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D071182FA29E00764732 /* libzmq_la-ctx.o */; };
-		D7E4D158182FA29E00764732 /* libzmq_la-curve_client.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D072182FA29E00764732 /* libzmq_la-curve_client.o */; };
-		D7E4D159182FA29E00764732 /* libzmq_la-curve_server.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D073182FA29E00764732 /* libzmq_la-curve_server.o */; };
-		D7E4D15A182FA29E00764732 /* libzmq_la-dealer.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D074182FA29E00764732 /* libzmq_la-dealer.o */; };
-		D7E4D15B182FA29E00764732 /* libzmq_la-devpoll.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D075182FA29E00764732 /* libzmq_la-devpoll.o */; };
-		D7E4D15C182FA29E00764732 /* libzmq_la-dist.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D076182FA29E00764732 /* libzmq_la-dist.o */; };
-		D7E4D15D182FA29E00764732 /* libzmq_la-epoll.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D077182FA29E00764732 /* libzmq_la-epoll.o */; };
-		D7E4D15E182FA29E00764732 /* libzmq_la-err.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D078182FA29E00764732 /* libzmq_la-err.o */; };
-		D7E4D15F182FA29E00764732 /* libzmq_la-fq.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D079182FA29E00764732 /* libzmq_la-fq.o */; };
-		D7E4D160182FA29E00764732 /* libzmq_la-io_object.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07A182FA29E00764732 /* libzmq_la-io_object.o */; };
-		D7E4D161182FA29E00764732 /* libzmq_la-io_thread.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07B182FA29E00764732 /* libzmq_la-io_thread.o */; };
-		D7E4D162182FA29E00764732 /* libzmq_la-ip.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07C182FA29E00764732 /* libzmq_la-ip.o */; };
-		D7E4D163182FA29E00764732 /* libzmq_la-ipc_address.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07D182FA29E00764732 /* libzmq_la-ipc_address.o */; };
-		D7E4D164182FA29E00764732 /* libzmq_la-ipc_connecter.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07E182FA29E00764732 /* libzmq_la-ipc_connecter.o */; };
-		D7E4D165182FA29E00764732 /* libzmq_la-ipc_listener.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D07F182FA29E00764732 /* libzmq_la-ipc_listener.o */; };
-		D7E4D166182FA29E00764732 /* libzmq_la-kqueue.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D080182FA29E00764732 /* libzmq_la-kqueue.o */; };
-		D7E4D167182FA29E00764732 /* libzmq_la-lb.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D081182FA29E00764732 /* libzmq_la-lb.o */; };
-		D7E4D168182FA29E00764732 /* libzmq_la-mailbox.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D082182FA29E00764732 /* libzmq_la-mailbox.o */; };
-		D7E4D169182FA29E00764732 /* libzmq_la-mechanism.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D083182FA29E00764732 /* libzmq_la-mechanism.o */; };
-		D7E4D16A182FA29E00764732 /* libzmq_la-msg.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D084182FA29E00764732 /* libzmq_la-msg.o */; };
-		D7E4D16B182FA29E00764732 /* libzmq_la-mtrie.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D085182FA29E00764732 /* libzmq_la-mtrie.o */; };
-		D7E4D16C182FA29E00764732 /* libzmq_la-null_mechanism.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D086182FA29E00764732 /* libzmq_la-null_mechanism.o */; };
-		D7E4D16D182FA29E00764732 /* libzmq_la-object.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D087182FA29E00764732 /* libzmq_la-object.o */; };
-		D7E4D16E182FA29E00764732 /* libzmq_la-options.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D088182FA29E00764732 /* libzmq_la-options.o */; };
-		D7E4D16F182FA29E00764732 /* libzmq_la-own.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D089182FA29E00764732 /* libzmq_la-own.o */; };
-		D7E4D170182FA29E00764732 /* libzmq_la-pair.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08A182FA29E00764732 /* libzmq_la-pair.o */; };
-		D7E4D171182FA29E00764732 /* libzmq_la-pgm_receiver.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08B182FA29E00764732 /* libzmq_la-pgm_receiver.o */; };
-		D7E4D172182FA29E00764732 /* libzmq_la-pgm_sender.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08C182FA29E00764732 /* libzmq_la-pgm_sender.o */; };
-		D7E4D173182FA29E00764732 /* libzmq_la-pgm_socket.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08D182FA29E00764732 /* libzmq_la-pgm_socket.o */; };
-		D7E4D174182FA29E00764732 /* libzmq_la-pipe.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08E182FA29E00764732 /* libzmq_la-pipe.o */; };
-		D7E4D175182FA29E00764732 /* libzmq_la-plain_mechanism.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D08F182FA29E00764732 /* libzmq_la-plain_mechanism.o */; };
-		D7E4D176182FA29E00764732 /* libzmq_la-poll.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D090182FA29E00764732 /* libzmq_la-poll.o */; };
-		D7E4D177182FA29E00764732 /* libzmq_la-poller_base.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D091182FA29E00764732 /* libzmq_la-poller_base.o */; };
-		D7E4D178182FA29E00764732 /* libzmq_la-proxy.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D092182FA29E00764732 /* libzmq_la-proxy.o */; };
-		D7E4D179182FA29E00764732 /* libzmq_la-pub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D093182FA29E00764732 /* libzmq_la-pub.o */; };
-		D7E4D17A182FA29E00764732 /* libzmq_la-pull.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D094182FA29E00764732 /* libzmq_la-pull.o */; };
-		D7E4D17B182FA29E00764732 /* libzmq_la-push.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D095182FA29E00764732 /* libzmq_la-push.o */; };
-		D7E4D17C182FA29E00764732 /* libzmq_la-random.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D096182FA29E00764732 /* libzmq_la-random.o */; };
-		D7E4D17D182FA29E00764732 /* libzmq_la-raw_decoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D097182FA29E00764732 /* libzmq_la-raw_decoder.o */; };
-		D7E4D17E182FA29E00764732 /* libzmq_la-raw_encoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D098182FA29E00764732 /* libzmq_la-raw_encoder.o */; };
-		D7E4D17F182FA29E00764732 /* libzmq_la-reaper.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D099182FA29E00764732 /* libzmq_la-reaper.o */; };
-		D7E4D180182FA29E00764732 /* libzmq_la-rep.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09A182FA29E00764732 /* libzmq_la-rep.o */; };
-		D7E4D181182FA29E00764732 /* libzmq_la-req.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09B182FA29E00764732 /* libzmq_la-req.o */; };
-		D7E4D182182FA29E00764732 /* libzmq_la-router.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09C182FA29E00764732 /* libzmq_la-router.o */; };
-		D7E4D183182FA29E00764732 /* libzmq_la-select.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09D182FA29E00764732 /* libzmq_la-select.o */; };
-		D7E4D184182FA29E00764732 /* libzmq_la-session_base.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09E182FA29E00764732 /* libzmq_la-session_base.o */; };
-		D7E4D185182FA29E00764732 /* libzmq_la-signaler.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D09F182FA29E00764732 /* libzmq_la-signaler.o */; };
-		D7E4D186182FA29E00764732 /* libzmq_la-socket_base.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A0182FA29E00764732 /* libzmq_la-socket_base.o */; };
-		D7E4D187182FA29E00764732 /* libzmq_la-stream.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A1182FA29E00764732 /* libzmq_la-stream.o */; };
-		D7E4D188182FA29E00764732 /* libzmq_la-stream_engine.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A2182FA29E00764732 /* libzmq_la-stream_engine.o */; };
-		D7E4D189182FA29E00764732 /* libzmq_la-sub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A3182FA29E00764732 /* libzmq_la-sub.o */; };
-		D7E4D18A182FA29E00764732 /* libzmq_la-tcp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A4182FA29E00764732 /* libzmq_la-tcp.o */; };
-		D7E4D18B182FA29E00764732 /* libzmq_la-tcp_address.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A5182FA29E00764732 /* libzmq_la-tcp_address.o */; };
-		D7E4D18C182FA29E00764732 /* libzmq_la-tcp_connecter.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A6182FA29E00764732 /* libzmq_la-tcp_connecter.o */; };
-		D7E4D18D182FA29E00764732 /* libzmq_la-tcp_listener.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A7182FA29E00764732 /* libzmq_la-tcp_listener.o */; };
-		D7E4D18E182FA29E00764732 /* libzmq_la-thread.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A8182FA29E00764732 /* libzmq_la-thread.o */; };
-		D7E4D18F182FA29E00764732 /* libzmq_la-trie.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0A9182FA29E00764732 /* libzmq_la-trie.o */; };
-		D7E4D190182FA29E00764732 /* libzmq_la-v1_decoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AA182FA29E00764732 /* libzmq_la-v1_decoder.o */; };
-		D7E4D191182FA29E00764732 /* libzmq_la-v1_encoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AB182FA29E00764732 /* libzmq_la-v1_encoder.o */; };
-		D7E4D192182FA29E00764732 /* libzmq_la-v2_decoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AC182FA29E00764732 /* libzmq_la-v2_decoder.o */; };
-		D7E4D193182FA29E00764732 /* libzmq_la-v2_encoder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AD182FA29E00764732 /* libzmq_la-v2_encoder.o */; };
-		D7E4D194182FA29E00764732 /* libzmq_la-xpub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AE182FA29E00764732 /* libzmq_la-xpub.o */; };
-		D7E4D195182FA29E00764732 /* libzmq_la-xsub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0AF182FA29E00764732 /* libzmq_la-xsub.o */; };
-		D7E4D196182FA29E00764732 /* libzmq_la-zmq.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0B0182FA29E00764732 /* libzmq_la-zmq.o */; };
-		D7E4D197182FA29E00764732 /* libzmq_la-zmq_utils.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E4D0B1182FA29E00764732 /* libzmq_la-zmq_utils.o */; };
 		D7E4D198182FA29E00764732 /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0B2182FA29E00764732 /* address.cpp */; };
 		D7E4D199182FA29E00764732 /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0B8182FA29E00764732 /* clock.cpp */; };
 		D7E4D19A182FA29E00764732 /* ctx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E4D0BC182FA29E00764732 /* ctx.cpp */; };
@@ -461,76 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C75F8D17E5BFF00018AB91 /* Foundation.framework in Frameworks */,
-				D7E4D152182FA29E00764732 /* libzmq.3.dylib in Frameworks */,
-				D7E4D153182FA29E00764732 /* libzmq.a in Frameworks */,
-				D7E4D154182FA29E00764732 /* libzmq.dylib in Frameworks */,
-				D7E4D155182FA29E00764732 /* libzmq_la-address.o in Frameworks */,
-				D7E4D156182FA29E00764732 /* libzmq_la-clock.o in Frameworks */,
-				D7E4D157182FA29E00764732 /* libzmq_la-ctx.o in Frameworks */,
-				D7E4D158182FA29E00764732 /* libzmq_la-curve_client.o in Frameworks */,
-				D7E4D159182FA29E00764732 /* libzmq_la-curve_server.o in Frameworks */,
-				D7E4D15A182FA29E00764732 /* libzmq_la-dealer.o in Frameworks */,
-				D7E4D15B182FA29E00764732 /* libzmq_la-devpoll.o in Frameworks */,
-				D7E4D15C182FA29E00764732 /* libzmq_la-dist.o in Frameworks */,
-				D7E4D15D182FA29E00764732 /* libzmq_la-epoll.o in Frameworks */,
-				D7E4D15E182FA29E00764732 /* libzmq_la-err.o in Frameworks */,
-				D7E4D15F182FA29E00764732 /* libzmq_la-fq.o in Frameworks */,
-				D7E4D160182FA29E00764732 /* libzmq_la-io_object.o in Frameworks */,
-				D7E4D161182FA29E00764732 /* libzmq_la-io_thread.o in Frameworks */,
-				D7E4D162182FA29E00764732 /* libzmq_la-ip.o in Frameworks */,
-				D7E4D163182FA29E00764732 /* libzmq_la-ipc_address.o in Frameworks */,
-				D7E4D164182FA29E00764732 /* libzmq_la-ipc_connecter.o in Frameworks */,
-				D7E4D165182FA29E00764732 /* libzmq_la-ipc_listener.o in Frameworks */,
-				D7E4D166182FA29E00764732 /* libzmq_la-kqueue.o in Frameworks */,
-				D7E4D167182FA29E00764732 /* libzmq_la-lb.o in Frameworks */,
-				D7E4D168182FA29E00764732 /* libzmq_la-mailbox.o in Frameworks */,
-				D7E4D169182FA29E00764732 /* libzmq_la-mechanism.o in Frameworks */,
-				D7E4D16A182FA29E00764732 /* libzmq_la-msg.o in Frameworks */,
-				D7E4D16B182FA29E00764732 /* libzmq_la-mtrie.o in Frameworks */,
-				D7E4D16C182FA29E00764732 /* libzmq_la-null_mechanism.o in Frameworks */,
-				D7E4D16D182FA29E00764732 /* libzmq_la-object.o in Frameworks */,
-				D7E4D16E182FA29E00764732 /* libzmq_la-options.o in Frameworks */,
-				D7E4D16F182FA29E00764732 /* libzmq_la-own.o in Frameworks */,
-				D7E4D170182FA29E00764732 /* libzmq_la-pair.o in Frameworks */,
-				D7E4D171182FA29E00764732 /* libzmq_la-pgm_receiver.o in Frameworks */,
-				D7E4D172182FA29E00764732 /* libzmq_la-pgm_sender.o in Frameworks */,
-				D7E4D173182FA29E00764732 /* libzmq_la-pgm_socket.o in Frameworks */,
-				D7E4D174182FA29E00764732 /* libzmq_la-pipe.o in Frameworks */,
-				D7E4D175182FA29E00764732 /* libzmq_la-plain_mechanism.o in Frameworks */,
-				D7E4D176182FA29E00764732 /* libzmq_la-poll.o in Frameworks */,
-				D7E4D177182FA29E00764732 /* libzmq_la-poller_base.o in Frameworks */,
-				D7E4D178182FA29E00764732 /* libzmq_la-proxy.o in Frameworks */,
-				D7E4D179182FA29E00764732 /* libzmq_la-pub.o in Frameworks */,
-				D7E4D17A182FA29E00764732 /* libzmq_la-pull.o in Frameworks */,
-				D7E4D17B182FA29E00764732 /* libzmq_la-push.o in Frameworks */,
-				D7E4D17C182FA29E00764732 /* libzmq_la-random.o in Frameworks */,
-				D7E4D17D182FA29E00764732 /* libzmq_la-raw_decoder.o in Frameworks */,
-				D7E4D17E182FA29E00764732 /* libzmq_la-raw_encoder.o in Frameworks */,
-				D7E4D17F182FA29E00764732 /* libzmq_la-reaper.o in Frameworks */,
-				D7E4D180182FA29E00764732 /* libzmq_la-rep.o in Frameworks */,
-				D7E4D181182FA29E00764732 /* libzmq_la-req.o in Frameworks */,
-				D7E4D182182FA29E00764732 /* libzmq_la-router.o in Frameworks */,
-				D7E4D183182FA29E00764732 /* libzmq_la-select.o in Frameworks */,
-				D7E4D184182FA29E00764732 /* libzmq_la-session_base.o in Frameworks */,
-				D7E4D185182FA29E00764732 /* libzmq_la-signaler.o in Frameworks */,
-				D7E4D186182FA29E00764732 /* libzmq_la-socket_base.o in Frameworks */,
-				D7E4D187182FA29E00764732 /* libzmq_la-stream.o in Frameworks */,
-				D7E4D188182FA29E00764732 /* libzmq_la-stream_engine.o in Frameworks */,
-				D7E4D189182FA29E00764732 /* libzmq_la-sub.o in Frameworks */,
-				D7E4D18A182FA29E00764732 /* libzmq_la-tcp.o in Frameworks */,
-				D7E4D18B182FA29E00764732 /* libzmq_la-tcp_address.o in Frameworks */,
-				D7E4D18C182FA29E00764732 /* libzmq_la-tcp_connecter.o in Frameworks */,
-				D7E4D18D182FA29E00764732 /* libzmq_la-tcp_listener.o in Frameworks */,
-				D7E4D18E182FA29E00764732 /* libzmq_la-thread.o in Frameworks */,
-				D7E4D18F182FA29E00764732 /* libzmq_la-trie.o in Frameworks */,
-				D7E4D190182FA29E00764732 /* libzmq_la-v1_decoder.o in Frameworks */,
-				D7E4D191182FA29E00764732 /* libzmq_la-v1_encoder.o in Frameworks */,
-				D7E4D192182FA29E00764732 /* libzmq_la-v2_decoder.o in Frameworks */,
-				D7E4D193182FA29E00764732 /* libzmq_la-v2_encoder.o in Frameworks */,
-				D7E4D194182FA29E00764732 /* libzmq_la-xpub.o in Frameworks */,
-				D7E4D195182FA29E00764732 /* libzmq_la-xsub.o in Frameworks */,
-				D7E4D196182FA29E00764732 /* libzmq_la-zmq.o in Frameworks */,
-				D7E4D197182FA29E00764732 /* libzmq_la-zmq_utils.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +410,7 @@
 		D7C75F8017E5BFF00018AB91 = {
 			isa = PBXGroup;
 			children = (
-				D7E4D067182FA28400764732 /* zeromq-4.0.1 */,
+				D7E4D067182FA28400764732 /* zeromq4-x */,
 				D7C75F8E17E5BFF00018AB91 /* ZeroMQ-Framework */,
 				D7C75FA317E5BFF00018AB91 /* ZeroMQ-FrameworkTests */,
 				D7C75F8B17E5BFF00018AB91 /* Frameworks */,
@@ -613,13 +473,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D7E4D067182FA28400764732 /* zeromq-4.0.1 */ = {
+		D7E4D067182FA28400764732 /* zeromq4-x */ = {
 			isa = PBXGroup;
 			children = (
 				D7E4D1DC182FA2A800764732 /* include */,
 				D7E4D068182FA29E00764732 /* src */,
 			);
-			path = "zeromq-4.0.1";
+			path = "zeromq4-x";
 			sourceTree = "<group>";
 		};
 		D7E4D068182FA29E00764732 /* src */ = {

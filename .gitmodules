@@ -3,4 +3,4 @@
 	url = https://github.com/zeromq/zeromq4-x.git
 [submodule "czmq2-x"]
 	path = czmq2-x
-	url = https://github.com/zeromq/czmq2-x.git
+	url = https://github.com/zeromq/czmq.git

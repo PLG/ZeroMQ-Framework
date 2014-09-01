@@ -8,9 +8,9 @@ This is the implementation of *Paolo Denti*'s and *Justin DeWind*'s ZeroMQ Unive
 I haven't done anything all that exciting; I followed directions and solved a discrepancy.<br/>
 All kudos go to the above authors.
 
-Compiled with: Xcode 5.0.2, for iOS 7.0 and ...<br/>
+Compiled with: Xcode 5.1.1, for iOS 7.1 and ...<br/>
  ... submod:`zeromq4-x` release:`v4.0.4`<br/>
- ... submod:`czmq2-x` release:`v2.0.3`<br/>
+ ... submod:`czmq` release:`v2.2.0`<br/>
 
 Usage of the Framework is Paolo's Step 5, but I **do** have an errata!
 
@@ -33,3 +33,5 @@ Because I don't save `xcuserdata` in git, Justin's step: “Configure aggregate 
 Right-click on the lib Product and “Show in Finder”. Go up one directory and find the result in: `Release-iphoneuniversal`.
 
 Files that need to be public in the framework should be added in the: Build Phase for the target Aggregate: ZeroMQ-iOS: Copy Files. Justin also warns (which I encountered), *“Ensure that the header files are copied into place* [at compile time] *(XCode is known to mess this up on occasion)”*.
+
+**Note**: czmq_prelude.h: #include <crt_externs.h> // commented out, because removed from SDK by Apple

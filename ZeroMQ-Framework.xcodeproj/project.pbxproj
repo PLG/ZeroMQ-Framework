@@ -44,7 +44,6 @@
 		D7A218F7183FB8F5002F115C /* zstr.c in Sources */ = {isa = PBXBuildFile; fileRef = D7A218DF183FB8F5002F115C /* zstr.c */; };
 		D7A218F8183FB8F5002F115C /* zsys.c in Sources */ = {isa = PBXBuildFile; fileRef = D7A218E0183FB8F5002F115C /* zsys.c */; };
 		D7A218F9183FB8F5002F115C /* zthread.c in Sources */ = {isa = PBXBuildFile; fileRef = D7A218E1183FB8F5002F115C /* zthread.c */; };
-		D7A218FA183FB8F5002F115C /* ztree.c in Sources */ = {isa = PBXBuildFile; fileRef = D7A218E2183FB8F5002F115C /* ztree.c */; };
 		D7A21900183FBE99002F115C /* czmq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7A218A9183FB8CA002F115C /* czmq.h */; };
 		D7A21914183FC7CA002F115C /* czmq_prelude.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7A218AA183FB8CA002F115C /* czmq_prelude.h */; };
 		D7A21915183FC7CA002F115C /* zauth.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7A218AB183FB8CA002F115C /* zauth.h */; };
@@ -69,7 +68,6 @@
 		D7A21928183FC7CA002F115C /* zstr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7A218BE183FB8CA002F115C /* zstr.h */; };
 		D7A21929183FC7CA002F115C /* zsys.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7A218BF183FB8CA002F115C /* zsys.h */; };
 		D7A2192A183FC7CA002F115C /* zthread.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7A218C0183FB8CA002F115C /* zthread.h */; };
-		D7A2192B183FC7CA002F115C /* ztree.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7A218C1183FB8CA002F115C /* ztree.h */; };
 		D7C75F8D17E5BFF00018AB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C75F8C17E5BFF00018AB91 /* Foundation.framework */; };
 		D7C75F9217E5BFF00018AB91 /* ZeroMQ_Framework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7C75F9117E5BFF00018AB91 /* ZeroMQ_Framework.h */; };
 		D7C75F9417E5BFF00018AB91 /* ZeroMQ_Framework.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C75F9317E5BFF00018AB91 /* ZeroMQ_Framework.m */; };
@@ -200,7 +198,6 @@
 				D7A21928183FC7CA002F115C /* zstr.h in CopyFiles */,
 				D7A21929183FC7CA002F115C /* zsys.h in CopyFiles */,
 				D7A2192A183FC7CA002F115C /* zthread.h in CopyFiles */,
-				D7A2192B183FC7CA002F115C /* ztree.h in CopyFiles */,
 				D7A21900183FBE99002F115C /* czmq.h in CopyFiles */,
 				D7E4D1DF182FA2C900764732 /* zmq.h in CopyFiles */,
 				D7E4D1E0182FA2C900764732 /* zmq_utils.h in CopyFiles */,
@@ -234,7 +231,6 @@
 		D7A218BE183FB8CA002F115C /* zstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zstr.h; sourceTree = "<group>"; };
 		D7A218BF183FB8CA002F115C /* zsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zsys.h; sourceTree = "<group>"; };
 		D7A218C0183FB8CA002F115C /* zthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zthread.h; sourceTree = "<group>"; };
-		D7A218C1183FB8CA002F115C /* ztree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ztree.h; sourceTree = "<group>"; };
 		D7A218CC183FB8F5002F115C /* zauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zauth.c; sourceTree = "<group>"; };
 		D7A218CE183FB8F5002F115C /* zcert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zcert.c; sourceTree = "<group>"; };
 		D7A218CF183FB8F5002F115C /* zcertstore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zcertstore.c; sourceTree = "<group>"; };
@@ -256,7 +252,6 @@
 		D7A218DF183FB8F5002F115C /* zstr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zstr.c; sourceTree = "<group>"; };
 		D7A218E0183FB8F5002F115C /* zsys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zsys.c; sourceTree = "<group>"; };
 		D7A218E1183FB8F5002F115C /* zthread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zthread.c; sourceTree = "<group>"; };
-		D7A218E2183FB8F5002F115C /* ztree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ztree.c; sourceTree = "<group>"; };
 		D7A218FB183FBC77002F115C /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
 		D7C75F8917E5BFF00018AB91 /* libZeroMQ-Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZeroMQ-Framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C75F8C17E5BFF00018AB91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -491,7 +486,6 @@
 				D7A218BE183FB8CA002F115C /* zstr.h */,
 				D7A218BF183FB8CA002F115C /* zsys.h */,
 				D7A218C0183FB8CA002F115C /* zthread.h */,
-				D7A218C1183FB8CA002F115C /* ztree.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -521,7 +515,6 @@
 				D7A218DF183FB8F5002F115C /* zstr.c */,
 				D7A218E0183FB8F5002F115C /* zsys.c */,
 				D7A218E1183FB8F5002F115C /* zthread.c */,
-				D7A218E2183FB8F5002F115C /* ztree.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -961,7 +954,6 @@
 				D7A218F8183FB8F5002F115C /* zsys.c in Sources */,
 				D7A218E9183FB8F5002F115C /* zclock.c in Sources */,
 				D7E4D1C1182FA29E00764732 /* raw_decoder.cpp in Sources */,
-				D7A218FA183FB8F5002F115C /* ztree.c in Sources */,
 				D7A218EF183FB8F5002F115C /* zhash.c in Sources */,
 				D7E4D1C2182FA29E00764732 /* raw_encoder.cpp in Sources */,
 				D7E4D1C3182FA29E00764732 /* reaper.cpp in Sources */,
@@ -1053,9 +1045,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LINK_WITH_STANDARD_LIBRARIES = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s armv6  i386";
 			};
@@ -1078,8 +1075,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LINK_WITH_STANDARD_LIBRARIES = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s armv6  i386";
